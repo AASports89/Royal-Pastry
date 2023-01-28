@@ -1,6 +1,6 @@
 let captchaText = document.querySelector('#captcha');
 var ctx = captchaText.getContext("2d");
-ctx.font = "50px Montserrat";
+ctx.font = "40px Montserrat";
 ctx.fillStyle = "#9b1212";
 
 let userText = document.querySelector('#textBox');
