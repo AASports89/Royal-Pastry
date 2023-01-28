@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Enter your description here" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="./ligolab_favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./ligolab_favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./ligolab_favicon/favicon-16x16.png">
+  <link rel="mask-icon" href="./ligolab_favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>LigoLab™ | RCM Consultation</title>
+</head>
+
+<body onload="generate()">
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light" id="nav">
+      <a class="navbar-brand" href="www.ligolab.com">
+        <img id="main-logo" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1674767719/LigoLab_Template_Scratch_o5pmoh.svg" alt="LigoLab™ Information System">
+      </a>
+  </nav>
+</header>
+
+<div class="card bg" style="border: none">
+  <img src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1674811212/LigoLab_Template_Scratch_9_xwrhr4.svg" class="card-img" alt="...">
+  <div class="card-img-overlay" style="border: none; width: 100%">
+
+  <div class="row justify-content-md-center">
+      <div class="col-4" id="main-content">
+          <h5 id="h5" class="card-title">
+              Discover the Power of Implementing Innovation & Automation:
+          </h5>
+          <h5 class="card-title">
+              A Single-Source of Truth About Laboratory Operational Success
+          </h5>
+   <div class="card-body">
+      <div class="row justify-content-md-center">
+        <h6 id="sub-title" class="card-subtitle mb-2">
+            How much revenue is your laboratory leaving on the table?
+            Schedule a free consultation to learn how you can integrate custom revenue cycle management,
+            automation, and executive-level analytics to secure sustained long-term profitability & growth.
+            Take advantage of this opportunity to sit down with leading industry professionals responsible for
+            setting the bar when it comes to laboratory operational success!
+        </h6>
+      </div>
+        </div>
+    </div>
+
+  <div class="col-8 justify-content-center">
+
+      <h2 class="card-title">Schedule A Free RCM Consultation Today!</h2>
+    <form class="card-body needs-validation">
+
+        <div class="form-row justify-content-md-center" id="form-div">
+
+          <div class="col-3 mb-4">
+            <label for="first-name">First Name: <i id="ast" class="fa-solid fa-asterisk"></i></label>
+            <input type="text" class="form-control" id="first-name" placeholder="John" required>
+          </div>
+          <div class="col-3 mb-4">
+            <label for="last-name">Last Name: <i id="ast" class="fa-solid fa-asterisk"></i></label>
+            <input type="text" class="form-control" id="last-name" placeholder="Doe" required>
+          </div>
+        </div>
+
+        <div class="form-row justify-content-md-center">
+            <div class="col-3 mb-4">
+            <label for="email"><i class="fa-solid fa-envelope"></i> Email: <i id="ast" class="fa-solid fa-asterisk"></i></label>
+            <input type="email" class="form-control" id="email" placeholder="JohnD@ligolab.com" required>
+          </div>
+            <div class="col-3 mb-4">
+            <label for="phone"><i class="fa-solid fa-phone"></i> Phone Number:</label>
+            <input type="text" class="form-control" id="phone" placeholder="(555) 5555-5555">
+          </div>
+        </div>
+
+        <div class="form-row justify-content-md-center">
+            <div class="col-3 mb-4">
+            <label for="company"><i class="fa-regular fa-registered"> </i> Company/Laboratory Name: <i id="ast" class="fa-solid fa-asterisk"></i></label>
+            <input type="text" class="form-control" id="company" placeholder="LigoLab™ Information System" required>
+          </div>
+            <div class="col-3 mb-4">
+            <label for="state"><i class="fa-solid fa-map-pin"></i> State: <i id="ast" class="fa-solid fa-asterisk"></i></label>
+            <input type="text" class="form-control" id="state" placeholder="CA or California" required>
+          </div>
+        </div>
+
+        <div class="form-row justify-content-md-center" id="heading">
+            <div class="col-6 mb-4">
+                <label for="select"><i class="fa-solid fa-clipboard-check"></i> Please Select An Area of Opportunity: <i id="ast" class="fa-solid fa-asterisk"></i></label>
+                <select class="custom-select" id="select" required>
+                    <option selected disabled value="">Select an Option...</option>
+                    <option>Revenue Cycle Management</option>
+                    <option>Regulatory Compliance</option>
+                    <option>Productivity/Metrics Analytics</option>
+                    <option>Start-Up Consultation</option>
+                    <option>Other: (Please explain below)</option>
+                </select>
+
+                </div>
+            </div>
+
+        <div class="form-row justify-content-md-center">
+          <div class="col-6 mb-4">
+            <label for="details"> <i class="fa-solid fa-briefcase"></i> Please Share Laboratory Operation & Workflow Details Below: <i id="ast" class="fa-solid fa-asterisk"></i></label>
+              <textarea class="form-control" id="details" rows="3" placeholder="Laboratory workflow details include..." required></textarea>
+          </div>
+        </div>
+
+        <div class="form-row justify-content-md-center">
+            <button id="submit-1" class="btn btn-primary" type="submit">Schedule Free Consultation</button>
+        </div>
+
+        <div class="form-row justify-content-md-center">
+            <img id="qr-code" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1674805668/LigoLab_Template_Scratch_5_vwnbjn.svg">
+        </div>
+    </form>
+
+      <div class="container justify-content-md-center" id="captcha-1">
+          <div class="row">
+              <div class="col">
+                  <canvas id="captcha">captcha text</canvas>
+                  <input class="form-control" id="textBox" type="text" name="text" placeholder="Enter Code...">
+                  <div class="col" style="padding-top: 2.5%">
+                      <button class="btn btn-outline-light" id="refreshButton" type="submit"><i id="captcha-ref" class="fa-solid fa-arrows-rotate"></i></button>
+                      <input class="btn btn-outline-light" tabindex="0" data-trigger="output" data-toggle="popover" id="submitButton" type="submit"/>
+                  </div>
+              </div>
+
+              <div class="col">
+                  <div class="card bg" id="captcha-img">
+                  <img src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1674859819/LigoLab_Template_Scratch_2_jpha6l.svg">
+                      <div class="card-img-overlay">
+                  <span id="output"></span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          </div>
+
+  </div>
+  </div>
+  </div>
+</div>
+
+<div class="card" style="border: none">
+    <h1 class="card-header" id="h1">Identify Revenue Stream Gaps & Opportunities</h1>
+    <div class="card-body">
+        <div class="row justify-content-md-center">
+
+<div class="container" id="divider-1">
+<!------------------------------------------------------------------------------------| DIVIDER ONLY |---------------------------------------------------------------------------------->
+</div>
+
+
+        <h5 class="card-title" id="check-title">
+            Your free consultation will give you an inside look into your revenue cycle and provide you with actionable next steps to:
+        </h5>
+
+            <div class="col-5" id="check-list">
+                <ul><i id="check" class="fa-solid fa-list-check"></i> - Maximize First-Pass Ratios</ul>
+                <ul><i id="check" class="fa-solid fa-list-check"></i> - Decrease A/R Days Across the Board</ul>
+                <ul><i id="check" class="fa-solid fa-list-check"></i> - Eliminate Billing Errors, While Increasing Volume</ul>
+                <ul><i id="check" class="fa-solid fa-list-check"></i> - Streamline Operational Workflow Tasks</ul>
+                <ul><i id="check" class="fa-solid fa-list-check"></i> - Automate Repetitive Billing Functions</ul>
+                <ul><i id="check" class="fa-solid fa-list-check"></i> - Customize Analytics for Productivity & KPI Tracking</ul>
+                <ul><i id="check" class="fa-solid fa-list-check"></i> - Transition Billing From a "Back-End" To a "Front-End" Process</ul>
+                <div class="form-row justify-content-md-center" id="submit-2">
+                    <a class="btn btn-primary" href="#form-div">Schedule Free Consultation</a>
+                </div>
+            </div>
+
+            <div class="col-5">
+                <img src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1674815928/LigoLab_Template_Scratch_13_amulmp.svg">
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="container" id="divider">
+<!------------------------------------------------------------------------------------| DIVIDER ONLY |---------------------------------------------------------------------------------->
+</div>
+
+<div class="container" id="stats-div" style="padding-bottom: 2.5%">
+    <div class="row" id="stats-row">
+        <div class="col-4">
+            <div class="card text-center" style="border: none; padding: 5%" id="stats-div-1">
+                <h1 class="card-title"><i id="clean-claim" class="fa-solid fa-chart-pie"></i></h1>
+                <p class="card-text" id="stats">98% Clean Claims First-Pass Rate</p>
+            </div>
+
+        </div>
+
+        <div class="col-4">
+            <div class="card text-center" style="border: none; padding: 5%" id="stats-div-1">
+                <h1 class="card-title"><i id="clean-claim" class="fa-solid fa-sack-dollar"></i></h1>
+                <p class="card-text" id="stats">30% Higher Net Collections</p>
+            </div>
+
+        </div>
+        <div class="col-4">
+            <div class="card text-center" style="border: none; padding: 5%" id="stats-div-1">
+            <h1 class="card-title"><i id="clean-claim" class="fa-solid fa-chart-line"></i></h1>
+            <p class="card-text" id="stats">Average of 31% Revenue Growth</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card bg" style="border: none; padding-top: 5%">
+    <img src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1674854414/LigoLab_Template_Scratch_x6hiog.svg" class="card-img" alt="...">
+    <div class="card-img-overlay">
+
+            <h1 class="card-header" id="h2">Increase Your Workflow Efficiency Without Sacrificing Precision & Accuracy</h1>
+            <div class="card-body">
+                <div class="row justify-content-md-center">
+                    <h5 class="card-title" id="check-title-1">Implementing a configurable platform combined with automation means your billing workflow is monitored 24/7 & 365-days per year:</h5>
+                </div>
+
+
+        </div>
+    </div>
+</div>
+
+<script src="./captcha.js"></script>
+</body>
+</html>
