@@ -13,6 +13,7 @@
 
 #main-content {
     padding-left: 2%;
+    padding-top: 5%;
 }
 
 #main {
@@ -43,14 +44,14 @@ h2 {
 h5 {
     text-align: center;
     font-weight: bold;
-    font-size: 200%;
+    font-size: 175%;
     color: white;
 }
 
 #sub-title {
     font-size: 150%;
     color: white;
-    margin-top: 5%;
+    margin-top: 2%;
     line-height: 1.35em;
     padding-left: 5%;
     padding-right: 2.5%;
@@ -133,6 +134,7 @@ label {
     color: #83868a;
     font-size: 175%;
     padding-bottom: 2.5%;
+    padding-top: 1%;
 }
 
 #check-title-1 {
@@ -153,7 +155,7 @@ label {
 }
 
 #check-row {
-    font-size: 150%;
+    font-size: 125%;
     color: white;
 }
 
@@ -198,9 +200,8 @@ label {
     background: linear-gradient(rgb(2, 62, 204) 0%, rgb(86, 154, 250) 80%);
     height: 0.35em;
     width: 20em;
-    margin-bottom: 3.5%;
-    margin-top: 2%;
-
+    margin-bottom: 2.5%;
+    margin-top: 2.5%;
 }
 
 #divider-1 {
@@ -208,7 +209,7 @@ label {
     height: 0.35em;
     width: 20em;
     margin-top: 2.5%;
-    margin-bottom: 2.5%;
+    margin-bottom: 1%;
 }
 
 #last-section {
@@ -318,34 +319,3 @@ label {
     border-radius: 0.25em;
     padding: 2.5%;
 }
-
-/***************************************************************************| NEW-CAPTCHA |*************************************************************************************/
-
-/*#captcha {*/
-/*    height: 80%;*/
-/*    width: 80%;*/
-/*    font-size: 30px;*/
-/*    letter-spacing: 3px;*/
-/*    margin: auto;*/
-/*    display: block;*/
-/*    top: 0;*/
-/*    bottom: 0;*/
-/*    left: 0;*/
-/*    right: 0;*/
-/*}*/
-
-
-
-/*#submitButton {*/
-/*    margin-top: 2em;*/
-/*    margin-bottom: 2em;*/
-/*    background-color: #08e5ff;*/
-/*    border: 0px;*/
-/*    font-weight: bold;*/
-/*}*/
-
-/*#refreshButton {*/
-/*    background-color: #08e5ff;*/
-/*    border: 0px;*/
-/*    font-weight: bold;*/
-/*}*/
