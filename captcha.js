@@ -31,7 +31,7 @@ userText.addEventListener('keyup', function(e) {
             output.innerHTML = "Success! ✅";
         } else {
             output.classList.add("incorrectCaptcha");
-            output.innerHTML = "Error⛔❗ Enter Valid Captcha Code⛔❗";
+            output.innerHTML = "Enter Valid Code⛔❗";
         }
     }
 });
@@ -45,7 +45,7 @@ submitButton.addEventListener('click', function() {
         output.innerHTML = "Success! ✅";
     } else {
         output.classList.add("incorrectCaptcha");
-        output.innerHTML = "Error⛔❗ Enter Valid Captcha Code⛔❗";
+        output.innerHTML = "Enter Valid Code⛔❗";
     }
 });
 
