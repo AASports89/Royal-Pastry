@@ -253,6 +253,7 @@ label {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    padding-top: 15%;
 }
 
 #captcha {
@@ -302,15 +303,20 @@ label {
 
 .incorrectCaptcha {
     color: #FF0000;
-    font-size: 80%;
+    font-size: 70%;
     font-weight: bold;
-    padding-top: 30%;
+    border: 1px solid red;
+    border-radius: 0.25em;
+    padding: 1%;
 }
 
 .correctCaptcha {
     color: #7FFF00;
     font-size: 85%;
     font-weight: bold;
+    border: 1px solid green;
+    border-radius: 0.25em;
+    padding: 2.5%;
 }
 
 /***************************************************************************| NEW-CAPTCHA |*************************************************************************************/
