@@ -22,12 +22,22 @@
     padding-top: 2.5%;
 }
 
-h2 {
-    text-align: center;
+#m-sub {
     color: white;
+    font-weight: bold;
+    font-size: 185%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+#title-m {
+    text-align: center;
+    color: black;
     font-family: Arial;
     padding-top: 1%;
     font-weight: bold;
+    padding-bottom: 2%;
 }
 
 #h5 {
@@ -46,15 +56,27 @@ h5 {
     font-weight: bold;
     font-size: 175%;
     color: white;
+    padding-bottom: 2.5%;
 }
 
 #sub-title {
-    font-size: 150%;
+    font-size: 175%;
     color: white;
     margin-top: 2%;
     line-height: 1.35em;
-    padding-left: 5%;
+    padding-left: 7.5%;
     padding-right: 2.5%;
+}
+
+#badge {
+    background: transparent;
+}
+
+#sub-title-1 {
+    font-size: 150%;
+    color: white;
+    padding-top: 2.5%;
+    padding-left: 5%;
 }
 
 #main-logo {
@@ -67,6 +89,7 @@ label {
     color: black;
     font-weight: bold;
     padding-left: 1%;
+    font-size: 115%;
 }
 
 #qr-code {
@@ -149,7 +172,7 @@ label {
 
 #check-title {
     text-align: center;
-    color: #83868a;
+    color: slategrey;
     font-size: 175%;
     padding-bottom: 2.5%;
     padding-top: 1%;
@@ -158,7 +181,8 @@ label {
 #check-title-1 {
     text-align: center;
     color: white;
-    font-size: 175%;
+    font-weight: bold;
+    font-size: 185%;
     padding-bottom: 1%;
     padding-top: 1%;
 }
@@ -232,7 +256,7 @@ label {
 }
 
 #last-section {
-    background: no-repeat url("https://res.cloudinary.com/dhqsixgmo/image/upload/v1675119853/LigoLab_Template_Scratch_16_znsoer.svg");
+    background: no-repeat url("https://res.cloudinary.com/dhqsixgmo/image/upload/v1675213618/LigoLab_Template_Scratch_14_rwcccr.svg");
     background-size: cover;
     background-position: center;
     padding-top: 1%;
@@ -240,7 +264,7 @@ label {
 
 #check-row {
     font-size: 125%;
-    color: white;
+    color: black;
 }
 
 #final-check {
@@ -283,6 +307,7 @@ label {
     background-size: cover;
     background-position: right;
     padding-bottom: 2.5%;
+    text-align: center;
 }
 
 #award {
@@ -291,17 +316,19 @@ label {
     background-size: cover;
     padding-bottom: 2.5%;
     padding-top: 2.5%;
+    height: 300px;
 }
 
 #award-text {
     font-size: 150%;
-    padding-right: 10%;
+    padding-top: 5%;
 }
 
 #check-list-title {
     font-size: 185%;
-    color: black;
-    font-weight: normal;
+    color: white;
+    font-weight: bold;
+    text-align: center;
 }
 
 #check-list-title-1 {
@@ -315,6 +342,7 @@ label {
 #check-row-1 {
     font-size: 125%;
     color: black;
+    text-align: left;
 }
 
 #icon-ligo {
@@ -341,8 +369,10 @@ label {
     background: linear-gradient(rgb(17, 17, 17) 0%, rgb(94, 96, 98) 90%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     -webkit-background-clip: text;
     color: transparent;
-    font-size: 125%;
+    font-size: 110%;
     font-weight: bold;
+    padding: 0%;
+    margin: 0.5%;
 }
 
 #footer-font {
@@ -355,7 +385,7 @@ label {
 
 #footer-div {
     background: linear-gradient(rgb(2, 62, 204) 0%, rgb(86, 154, 250) 80%);
-    height: 0.10em;
+    height: 0.15em;
     width: 75em;
     margin-top: 2.5%;
     margin-bottom: 7.5%;
@@ -367,15 +397,76 @@ label {
     background-position: center;
 }
 
-#carousel-caption {
+#carousel-caption-1 {
     color: black;
-    font-size: 150%;
+    font-size: 125%;
+    border: 0.5px solid black;
+    border-radius: 1.5em;
+    padding: 1%;
+    background: url("https://res.cloudinary.com/dhqsixgmo/image/upload/v1675217535/LigoLab_Template_Scratch_20_xffvsd.svg");
+}
+
+#carousel-caption-2 {
+    color: black;
+    font-size: 125%;
+    border: 0.5px solid black;
+    border-radius: 1.5em;
+    padding: 1%;
+    background: url("https://res.cloudinary.com/dhqsixgmo/image/upload/v1675217535/LigoLab_Template_Scratch_20_xffvsd.svg");
+}
+
+#carousel-caption-3 {
+    color: black;
+    font-size: 125%;
+    border: 0.5px solid black;
+    border-radius: 1.5em;
+    padding: 1%;
+    background: url("https://res.cloudinary.com/dhqsixgmo/image/upload/v1675217535/LigoLab_Template_Scratch_20_xffvsd.svg");
+}
+
+#carousel-caption-4 {
+    color: black;
+    font-size: 125%;
+    border: 0.5px solid black;
+    border-radius: 1.5em;
+    padding: 1%;
+    background: url("https://res.cloudinary.com/dhqsixgmo/image/upload/v1675217535/LigoLab_Template_Scratch_20_xffvsd.svg");
+}
+
+#link {
+    text-decoration: none;
+}
+
+#link:hover {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+}
+
+#ligo-site {
+    background: -webkit-linear-gradient(rgb(2, 62, 204) 0%, rgb(86, 154, 250) 80%); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgb(2, 62, 204) 0%, rgb(86, 154, 250) 80%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#ecpc {
+    background: no-repeat url("https://res.cloudinary.com/dhqsixgmo/image/upload/v1675214742/LigoLab_Template_Scratch_15_a1lb9x.svg");
+    background-size: cover;
+    background-position: center;
+}
+
+#qr-2 {
+    background: transparent;
+    width: 75%;
+    float: right;
+    border: none;
 }
 
 /************************************************************************| CaptCHA |*************************************************************************/
 #captcha-1 {
-    margin-top: -17.5%;
-    width: 42.5%;
+    /*margin-top: -17.5%;*/
+    width: 40%;
     border-radius: 0.25em;
     float: right;
     padding: 1%;
