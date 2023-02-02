@@ -38,19 +38,9 @@ render() {
         </div>
     </div>
     <div className="form-row justify-content-md-center">
-        <a id="submit-2" className="btn btn-primary" href="#form-div">Schedule Free Consultation</a>
+        <a id="submit-2" className="btn btn-primary" href="#contact-form">Schedule Free Consultation</a>
     </div>
 
-       {/* <div data-aos="zoom-in" className="col-12 col-sm-8 col-md-6 col-lg-4">
-         <div className="card border-0">
-           <div className="card-body" id="irvine">
-            <h4 className="card-title about-heading" id="card-heading"></h4>
-             <p className="card-text" id="card-text">
-
-           </p>
-           </div>
-         </div> */}
-       {/* </div> */}
      </div>
      <div cclassName="container-fluid" id="monitor">
 
@@ -103,7 +93,7 @@ render() {
             <ul id="check-row-1"><i id="final-check-2" class="fa-solid fa-gauge-high"></i> - Constant "Real-Time" Data Updates</ul>
             <ul id="check-row-1"><i id="final-check-2" class="fa-solid fa-gauge-high"></i> - Executive-Level Reporting</ul>
             <div class="form-row justify-content-md-center">
-                <a id="submit-4" class="btn btn-primary" href="#form-div">Schedule Free Consultation</a>
+                <a id="submit-4" class="btn btn-primary" href="#contact-form">Schedule Free Consultation</a>
             </div>
         </div>
 

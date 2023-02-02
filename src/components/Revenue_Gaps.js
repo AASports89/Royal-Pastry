@@ -28,15 +28,14 @@ render() {
                    <ul><i id="check" className="fa-solid fa-list-check"></i> - Transition Billing From a "Back-End" To a "Front-End" Process</ul>
 
                    <div className="form-row justify-content-md-center">
-                       <a id="submit-5" className="btn btn-primary" href="#form-div">Schedule Free Consultation</a>
+                       <a id="submit-5" className="btn btn-primary" href="#contact-form">Schedule Free Consultation</a>
                    </div>
          </div>
        </div>
 
        <div data-aos="slide-left" className="col-7" id='gap'>
          <div className="card border-0" id="gaps">
-                   <img className="img-fluid"
-                       src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1675218976/LigoLab_Template_Scratch_21_vrybla.svg"></img>
+            <img className="img-fluid" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1675218976/LigoLab_Template_Scratch_21_vrybla.svg" alt="gaps"></img>
          </div>
        </div>
 
@@ -65,17 +64,6 @@ render() {
         </div>
     </div>
 </div>
-
-       {/* <div data-aos="zoom-in" className="col-12 col-sm-8 col-md-6 col-lg-4">
-         <div className="card border-0">
-           <div className="card-body" id="irvine">
-            <h4 className="card-title about-heading" id="card-heading"></h4>
-             <p className="card-text" id="card-text">
-
-           </p>
-           </div>
-         </div> */}
-       {/* </div> */}
      </div>
      <div className="container" id="divider-1"></div>
 </div>

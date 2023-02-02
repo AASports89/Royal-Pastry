@@ -44,7 +44,7 @@ export default function Header() {
 					</a>
 						<div className="navbar-nav">
 							<a onClick={() => SmoothScrollTo("contact-form")} id="nav-link" className="btn-style nav-item nav-link">SCHEDULE FREE CONSULTATION</a>
-							<a onClick={() => SmoothScrollTo("revenue_gaps")} id="nav-link" className="btn-style nav-item nav-link">SINGLE-SOURCE OF TRUTH</a>
+							<a onClick={() => SmoothScrollTo("revenue_gaps")} id="nav-link" className="btn-style nav-item nav-link">A SINGLE-SOURCE OF TRUTH</a>
 							<a onClick={() => SmoothScrollTo("carousel")} id="nav-link" className="btn-style nav-item nav-link">LIGOLAB™ PARTNERSHIPS</a>
 						</div>
 					</div>

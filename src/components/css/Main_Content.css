@@ -43,6 +43,8 @@
 
 #badge {
     background: transparent;
+    margin: 0%;
+    padding: 0%;
 }
 
 #sub-title-1 {
@@ -50,7 +52,13 @@
     font-weight: bold;
     color: white;
     padding-top: 2.5%;
-    padding-left: 5%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    text-align: left;
+}
+
+#next {
+    padding-left: 10%;
 }
 
 #icon-ligo {
@@ -79,6 +87,7 @@
     color: black;
 }
 
-label {
-    font-size: 150%;
+#label {
+    font-size: 125%;
+    color: black;
 }
