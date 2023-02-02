@@ -1,0 +1,174 @@
+#check-title-1 {
+    text-align: center;
+    color: rgb(111, 112, 117);
+    font-weight: bold;
+    font-size: 185%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+#last-section {
+    background: no-repeat url("https://res.cloudinary.com/dhqsixgmo/image/upload/v1675229338/LigoLab_Template_Scratch_23_wxhvbf.svg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 1%;
+}
+
+#final-check {
+    background: -webkit-linear-gradient(rgb(2, 62, 204) 0%, rgb(86, 154, 250) 80%); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgb(2, 62, 204) 0%, rgb(86, 154, 250) 80%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 175%;
+}
+
+#final-check-1 {
+    background: -webkit-linear-gradient(rgb(2, 62, 204) 0%, rgb(86, 154, 250) 80%); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgb(2, 62, 204) 0%, rgb(86, 154, 250) 80%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 150%;
+}
+
+#final-check-2 {
+    background: -webkit-linear-gradient(rgb(2, 45, 146) 0%, rgb(123, 180, 241) 100%); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgb(2, 45, 146) 0%, rgb(123, 180, 241) 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 150%;
+    padding-left: 5%;
+    padding-top: 7.5%;
+}
+
+#dashboard {
+    background: no-repeat url("https://res.cloudinary.com/dhqsixgmo/image/upload/v1675122468/LigoLab_Template_Scratch_17_zbobqm.svg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 0.75em;
+    margin-top: 2.5%;
+    height: 500px;
+}
+
+#monitor {
+    background: no-repeat url("https://res.cloudinary.com/dhqsixgmo/image/upload/v1675149590/LigoLab_Template_Scratch_4_zarkxs.svg");
+    background-size: cover;
+    background-position: right;
+    padding-bottom: 2.5%;
+    text-align: center;
+}
+
+#award {
+    background: no-repeat url("https://res.cloudinary.com/dhqsixgmo/image/upload/v1675154040/LigoLab_Template_Scratch_8_puv4yn.svg");
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 2.5%;
+    padding-top: 2.5%;
+    height: 300px;
+}
+
+#award-text {
+    font-size: 175%;
+    padding-top: 5%;
+    padding-left: 2%;
+}
+
+#check-list-title {
+    font-size: 185%;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+#check-list-title-1 {
+    background: -webkit-linear-gradient(rgb(17, 17, 17) 0%, rgb(218, 220, 223) 80%); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgb(17, 17, 17) 0%, rgb(218, 220, 223) 80%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 200%;
+    font-weight: bold;
+    padding-bottom: 5%;
+}
+
+#check-row {
+    font-size: 150%;
+    color: black;
+    text-align: left;
+}
+
+#check-row-1 {
+    font-size: 150%;
+    color: black;
+    text-align: left;
+}
+
+#check-col {
+    padding-left: 3.5%;
+}
+
+#dash-text {
+    font-size: 175%;
+}
+
+#submit-2 {
+    background: linear-gradient(rgb(14, 76, 175) 0%, rgb(161, 200, 245) 80%);
+    margin-top: 2.5%;
+}
+
+#submit-2:hover {
+    background: linear-gradient(rgb(138, 139, 140) 0%, rgb(222, 224, 225) 80%);
+    transition: all 0.3s ease-in-out;
+    color: black;
+}
+
+#dash-cont {
+    padding-bottom: 5%;
+}
+
+#submit-4 {
+    background: linear-gradient(rgb(14, 76, 175) 0%, rgb(161, 200, 245) 80%);
+    margin-top: 5%;
+}
+
+#submit-4:hover {
+    background: linear-gradient(rgb(138, 139, 140) 0%, rgb(222, 224, 225) 80%);
+    transition: all 0.3s ease-in-out;
+    color: black;
+}
+
+#h2 {
+    text-align: center;
+    border: none;
+    background: transparent;
+    padding-top: 1.5%;
+}
+
+#h3 {
+    text-align: center;
+    border: none;
+    background: transparent;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+
+#h4 {
+    text-align: center;
+    border: none;
+    background: transparent;
+    padding-bottom: 2.5%;
+}
+
+#divider-2 {
+    background: linear-gradient(rgb(2, 62, 204) 0%, rgb(86, 154, 250) 80%);
+    height: 0.15em;
+    width: 20em;
+    margin-top: 1%;
+    margin-bottom: 2.5%;
+}
+
+#divider-3 {
+    background: linear-gradient(rgb(2, 62, 204) 0%, rgb(86, 154, 250) 80%);
+    height: 0.15em;
+    width: 20em;
+    margin-top: 3.5%;
+}

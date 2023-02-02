@@ -1,0 +1,147 @@
+@import "~bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+.background {
+    overflow: hidden;
+    background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+    height: 100vh;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes move {
+  from { top: -80px;}
+  to   { top: 0; }
+}
+
+#navbar {
+    height: 200px;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    background: no-repeat url("https://res.cloudinary.com/dhqsixgmo/image/upload/v1675308366/LigoLab_Template_Scratch_24_u9qhnu.svg");
+    background-size: cover;
+}
+
+#main-container {
+    background: no-repeat url("https://res.cloudinary.com/dhqsixgmo/image/upload/v1674811212/LigoLab_Template_Scratch_9_xwrhr4.svg");
+    background-size: cover;
+    padding-top: 2.5%;
+}
+
+#main-header {
+    height:fit-content;
+    margin-top: 2.5%;
+}
+
+#main-logo {
+   width: 500px;
+   margin: -20%;
+   padding: -20%;
+}
+
+#nav-link {
+    padding: 5%;
+    font-size: 125%;
+}
+
+#nav-link:hover {
+    background: -webkit-linear-gradient(rgb(2, 62, 204) 0%, rgb(86, 154, 250) 80%); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgb(2, 62, 204) 0%, rgb(86, 154, 250) 80%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    color: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+#h1 {
+    text-align: center;
+    font-size: 300%;
+}
+
+#m-sub {
+    padding-top: 1%;
+}
+
+#submit-top {
+    background: linear-gradient(rgb(14, 76, 175) 0%, rgb(161, 200, 245) 80%);
+    margin-top: 0.5%;
+    width: 30%;
+}
+
+#submit-top:hover {
+    background: linear-gradient(rgb(138, 139, 140) 0%, rgb(222, 224, 225) 80%);
+    transition: all 0.3s ease-in-out;
+    color: black;
+}
+
+#gaps {
+    border: none;
+    background: none;
+}
+
+#revenue_gaps {
+    background: url("https://res.cloudinary.com/dhqsixgmo/image/upload/v1675072418/LigoLab_Template_Scratch_2_rsgist.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#footer-div {
+    background: linear-gradient(rgb(2, 62, 204) 0%, rgb(86, 154, 250) 80%);
+    height: 0.15em;
+    width: 75em;
+    margin-top: 1%;
+    margin-bottom: 2.5%;
+}
+
+#divider-1 {
+    background: linear-gradient(rgb(2, 62, 204) 0%, rgb(86, 154, 250) 80%);
+    height: 0.15em;
+    width: 20em;
+    margin-top: 3.5%;
+}
+
+#nav-divider {
+    background: linear-gradient(rgb(2, 62, 204) 0%, rgb(86, 154, 250) 80%);
+    height: 0.15em;
+    width: 100%;
+}
+
+#footer-title {
+    font-size: 100%;
+    color: black;
+    padding-top: 1%;
+}
+
+#footer-font {
+    font-size: 200%;
+    background: -webkit-linear-gradient(rgb(2, 62, 204) 0%, rgb(86, 154, 250) 80%); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgb(2, 62, 204) 0%, rgb(86, 154, 250) 80%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    color: transparent;
+    padding-top: 2%;
+}
+
+#main {
+    border: none;
+    background: transparent;
+}
+
+// .fade-in-nav {
+//   animation: move 5s alternate;
+//   position: fixed;
+//   top: 0;
+//   right: 0;
+//   left: 0;
+//   z-index: 10;
+// }
+
+// .fade-in-nav + .content-containers {
+//   padding-top: 60px;
+// }
