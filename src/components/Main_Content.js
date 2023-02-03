@@ -36,35 +36,35 @@ render() {
                   <h6 className="card-subtitle" id="subtitle">How much revenue is your laboratory leaving on the table?</h6>
                 </div>
 
-              <p className="card-text" id="sub-title-1">
+            <div className="form-row justify-content-center">
+                <p className="card-text" id="sub-title-1">
+                    <ul id="line-1">
+                        <span id="badge" className="badge">
+                            <img id="icon-ligo" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1675075008/LigoLab_Template_Scratch_10_jqgdp8_fwilt8.ico" alt="ligo icon"></img>
+                        </span>
+                            Schedule a free consultation to learn how you can integrate custom revenue cycle management, automation & executive-level analytics to secure sustained long-term profitability & growth.
+                    </ul>
+                       
 
-                <ul id="line-1">
-                    <span id="badge" className="badge">
-                        <img id="icon-ligo" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1675075008/LigoLab_Template_Scratch_10_jqgdp8_fwilt8.ico" alt="ligo icon"></img>
-                    </span>
-                    Schedule a free consultation to learn how you can integrate custom revenue cycle management, automation 
-                </ul>
-                <span id="span"> & executive-level analytics to secure sustained long-term profitability & growth.</span>
-
-
-                <ul id="line-2">
-                    <span id="badge" className="badge">
-                        <img id="icon-ligo" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1675075008/LigoLab_Template_Scratch_10_jqgdp8_fwilt8.ico" alt="ligo icon"></img>
-                    </span>
-                        Take advantage of this opportunity to sit down with leading industry professionals responsible for setting the  
-                </ul>
-                <span id="span">bar, when it comes to laboratory operational success!</span>
-
+                    <ul id="line-2">
+                        <span id="badge" className="badge">
+                            <img id="icon-ligo" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1675075008/LigoLab_Template_Scratch_10_jqgdp8_fwilt8.ico" alt="ligo icon"></img>
+                        </span>
+                            Take advantage of this opportunity to sit down with leading industry professionals responsible for setting the bar, when it comes to laboratory operational success!
+                    </ul>
                 </p>
-          </div>
-<div className="col-3 justify-content-center">
-<div className="card" id="form"></div>
-</div>
-<div className="row justify-content-center">
-<div data-aos="slide-left" className="col-6 justify-content-center" id="contact-form">
-    <h2 className="card-title" id="title-m">Schedule A Free RCM Consultation Today!</h2>
+            </div>
+        </div>
 
-<form className="wow pulse" action="https://formspree.io/f/maykpnjz" method="POST">
+<div className="col-3 justify-content-center">
+    <div className="card" id="form"></div>
+</div>
+
+    <div className="row justify-content-center">
+        <div data-aos="slide-left" className="col-6 justify-content-center" id="contact-form">
+            <h2 className="card-title" id="title-m">Schedule A Free RCM Consultation Today!</h2>
+
+        <form className="wow pulse" action="https://formspree.io/f/maykpnjz" method="POST">
 
     <div className="row justify-content-center">
         <div className="col-6-mx-auto">
@@ -140,8 +140,8 @@ render() {
     </div>
 
         <div className="form-row mt-3 justify-content-center">
-            <div className="form-row-mx-auto">
-            <input id="userInput" className="form-control" type="text" name="userInput" placeholder="Enter Capture Code..."></input>
+            <div className="form-row justify-content-center">
+                <input id="userInput" className="form-control" type="text" name="userInput" placeholder="Enter Captcha® code"></input>
             </div>
         </div>
 

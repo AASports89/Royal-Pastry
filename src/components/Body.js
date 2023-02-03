@@ -80,10 +80,10 @@ render() {
     <div className="row justify-content-md-center">
         <div data-aos="slide-down" className="row justify-content-md-center">
             <p id='dash-text'>
-                Taking into account the current growing trend of reliance on data the majority of healthcare related services,
-                laboratory executives must leverage data analytics tools to streamline workflow management and build accurate fiscal projections.
-                The <i>Dashboard Tool</i> hosts a number of customizable widgets which allow laboratories to create limitless amounts of charts,
-                tables and reports to each laboratory's workflow needs.
+                Taking into account the current growing trend of reliance on analytical data within the majority of healthcare related services,
+                laboratory executives must leverage analytics tools to streamline workflow management and build accurate fiscal projections.
+                Tools such as the <strong><i>Dashboard Tool</i></strong> hosts a number of customizable data widgets, allowing laboratories to create limitless charts,
+                tables and reports reflecting all a laboratory's workflow needs.
                 Access all analytic workflow data on one user-friendly & intuitive platform window to streamline each step of your revenue cycle.
             </p>
         </div>

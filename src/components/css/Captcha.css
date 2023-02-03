@@ -6,15 +6,23 @@
     float: right;
 }
 
+#canvas {
+    margin-right: 5%;
+}
+
 #buttons {
     padding: 2%;
-    margin-left: 2%;
+    margin-left: 4%;
+}
+
+#code {
+    padding: 1%;
 }
 
 #submit-code {
     background: linear-gradient(rgb(14, 76, 175) 0%, rgb(161, 200, 245) 80%);
     font-weight: bold;
-    padding: 1.5%;
+    padding: 3.5%;
     font-size: 125%;
 }
 
@@ -27,4 +35,5 @@
 #userInput {
     margin-right: 2%;
     margin-bottom: 2.5%;
+    margin-left: 1%;
 }
