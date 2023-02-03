@@ -14,10 +14,10 @@
     align-items: center;
 }
 
-@keyframes move {
-  from { top: -2.5%;}
-  to   { top: 0; }
-}
+// @keyframes move {
+//   from { top: -2.5%;}
+//   to   { top: 0; }
+// }
 
 #navbar {
     height: 200px;
@@ -149,7 +149,7 @@
 }
 
 #qr-card-1 {
-    padding: 20%;
+    padding: 25%;
     background: none;
     border: none;
 }

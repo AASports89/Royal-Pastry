@@ -59,13 +59,16 @@ render() {
                     <ul id="next">bar when it comes to laboratory operational success!</ul>
                 </p>
           </div>
-
-<div data-aos="slide-left" className="col-12 justify-content-center" id="contact-form">
+<div className="col-3 justify-content-center">
+<div className="card" id="form"></div>
+</div>
+<div className="row justify-content-center">
+<div data-aos="slide-left" className="col-6 justify-content-center" id="contact-form">
     <h2 className="card-title" id="title-m">Schedule A Free RCM Consultation Today!</h2>
 
 <form className="wow pulse" action="https://formspree.io/f/maykpnjz" method="POST">
 
-    <div className="form-row justify-content-center">
+    <div className="row justify-content-center">
         <div className="col-6-mx-auto">
             <label id="label" htmlFor="first-name">First Name: <i id="ast" className="fa-solid fa-asterisk"></i></label>
             <input type="text" className="form-control" id="first-name" placeholder="John" required/>
@@ -78,7 +81,7 @@ render() {
     </div>
 
 
-    <div className="form-row justify-content-center">
+    <div className="row justify-content-center">
         <div className="col-6-mx-auto">
             <label id="label" htmlFor="email"><i className="fa-solid fa-envelope"></i> Email: <i id="ast" className="fa-solid fa-asterisk"></i></label>
             <input type="email" className="form-control" id="email" placeholder="JohnD@ligolab.com" required/>
@@ -90,7 +93,7 @@ render() {
         </div>
     </div>
 
-    <div className="form-row justify-content-center">
+    <div className="row justify-content-center">
         <div className="col-6-mx-auto">
             <label id="label" htmlFor="company"><i className="fa-regular fa-registered"> </i> Company/Laboratory Name: <i id="ast" className="fa-solid fa-asterisk"></i></label>
             <input type="text" className="form-control" id="company" placeholder="LigoLab™ Information System" required/>
@@ -102,7 +105,7 @@ render() {
         </div>
     </div>
 
-    <div className="form-row justify-content-center" id="heading">
+    <div className="row justify-content-center" id="heading">
 
         <div className="col-7-mx-auto">
             <label id="label" htmlFor="select"><i className="fa-solid fa-clipboard-check"></i> Please Select An Area of Opportunity: <i id="ast" className="fa-solid fa-asterisk"></i></label>
@@ -118,7 +121,7 @@ render() {
 
     </div>
 
-    <div className="form-row justify-content-center">
+    <div className="row justify-content-center">
         <div className="col-7-mx-auto">
             <label id="label" htmlFor="details"> <i className="fa-solid fa-briefcase"></i> Please Share Laboratory
                     Operation & Workflow Details Below: <i id="ast" className="fa-solid fa-asterisk"></i></label>
@@ -126,34 +129,35 @@ render() {
         </div>
     </div>
 
-            <div className="row text-md-right text-sm-center">
-                <div className="col-12 mx-auto">
+            <div className="form-row justify-content-center">
                     <button id="submit-1" className="btn btn-primary" type="submit">
                         Schedule Free Consultation
                     </button>
-                </div>
             </div>
 
-<div id="captcha" className="form-group col-5 justify-content-center">
+<div id="captcha" className="form-row justify-content-center">
 
     <div id="canvas" className="form-row mt-3 justify-content-center">
         <LoadCanvasTemplate />
     </div>
 
         <div className="form-row mt-3 justify-content-center">
-            <input id="userInput" className="form-control" type="text" name="userInput" placeholder="Enter Capture Code..."></input>     
+            <div className="form-row-mx-auto">
+            <input id="userInput" className="form-control" type="text" name="userInput" placeholder="Enter Capture Code..."></input>
+            </div>
         </div>
 
-        <div className="form-row justify-content-center" id="buttons">
+        <div className="form-row mt-3 justify-content-center" id="buttons">
             <button className="btn btn-primary" id="submit-code" onClick={ () => this.submitMyForm() }>
                 <i id="code" class="fa-solid fa-qrcode"></i> - Submit
             </button>
-        </div>
+</div>
                 
 </div>
 </form>
 </div>
-<div data-aos="slide-right" id="qr-card" className="form-row justify-content-center">
+</div>
+<div data-aos="slide-right" id="qr-card" className="col-5 justify-content-center">
     <div id="qr-card-1" className="card"></div>
 </div>
 </div>

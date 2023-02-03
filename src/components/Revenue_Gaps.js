@@ -15,20 +15,21 @@ render() {
 <div className="row justify-content-center">
     <div data-aos="slide-right" className="col-5">
       
-               <h5 className="card-title" id="check-title">
-                   Your free consultation will give you an inside look into your revenue cycle and provide you with
-                   actionable next steps to:
-               </h5>
+        <h5 className="card-title" id="check-title">
+            Your free consultation will give you an inside look into your revenue cycle and provide you with actionable next steps to:
+        </h5>
                <div className="col-12" id="check-list">
 
-                   <ul><i id="check" className="fa-solid fa-list-check"></i> - Maximize First-Pass Ratios</ul>
-                   <ul><i id="check" className="fa-solid fa-list-check"></i> - Decrease A/R Days Across the Board</ul>
-                   <ul><i id="check" className="fa-solid fa-list-check"></i> - Eliminate Billing Errors, While Increasing Volume</ul>
-                   <ul><i id="check" className="fa-solid fa-list-check"></i> - Streamline Operational Workflow Tasks</ul>
-                   <ul><i id="check" className="fa-solid fa-list-check"></i> - Automate Repetitive Billing Functions</ul>
-                   <ul><i id="check" className="fa-solid fa-list-check"></i> - Customize Analytics for Productivity & KPI Tracking</ul>
-                   <ul><i id="check" className="fa-solid fa-list-check"></i> - Transition Billing From a "Back-End" To a "Front-End" Process</ul>
-
+                <p id='checking'>
+                    <ul><i id="check" className="fa-solid fa-list-check"></i> - Maximize First-Pass Ratios</ul>
+                    <ul><i id="check" className="fa-solid fa-list-check"></i> - Decrease A/R Days Across the Board</ul>
+                    <ul><i id="check" className="fa-solid fa-list-check"></i> - Eliminate Billing Errors, While Increasing Volume</ul>
+                    <ul><i id="check" className="fa-solid fa-list-check"></i> - Streamline Operational Workflow Tasks</ul>
+                    <ul><i id="check" className="fa-solid fa-list-check"></i> - Automate Repetitive Billing Functions</ul>
+                    <ul><i id="check" className="fa-solid fa-list-check"></i> - Customize Analytics for Productivity & KPI Tracking</ul>
+                    <ul><i id="check" className="fa-solid fa-list-check"></i> - Transition Billing From a "Back-End" To a "Front-End" Process</ul>
+                </p>
+                   
                    <div className="form-row justify-content-md-center">
                        <a id="submit-5" className="btn btn-primary" href="#contact-form">Schedule Free Consultation</a>
                 </div>

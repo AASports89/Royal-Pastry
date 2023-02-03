@@ -6,7 +6,7 @@ class Body extends Component {
 render() {
 
   return (
-<div className='container-fluid'>
+<div className='container-fluid' id='section'>
 
 <div className="component-container" id="last-section">
     <h1 className="card-header" id="h2">Increase Your Workflow Efficiency Without Sacrificing Precision & Accuracy</h1>
@@ -112,7 +112,7 @@ render() {
     
         <div data-aos="zoom-in" class="col-12">
             <p id="award-text">
-                In today's stringent regulatory compliance landscape, establishing an efficient workflow &
+                In today's strict regulatory compliance landscape, establishing an efficient workflow &
                 optimized revenue cycle isn't enough:
                 <li id='award-line'>
                     All streamlined operational processes & innovative billing methods 
@@ -121,10 +121,8 @@ render() {
                 <li id='award-line-1'>
                     LigoLab™ practices regular internal review of regulatory 
                     compliance guidelines, while striving to further develop it's
-                    <ol id="al">
-                        operating platform's infrastructure ensuring every claim is
-                        processed accurately, rapidly & securely.
-                    </ol>
+                    operating platform's infrastructure ensuring every claim is
+                    processed accurately, rapidly & securely.
                 </li>
             </p>
             </div>

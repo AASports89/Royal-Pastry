@@ -11,7 +11,7 @@
 #card-heading {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
-    font-size: 150%;
+    font-size: 120%;
 }
 
 #submit-5 {
@@ -19,7 +19,7 @@
     margin-bottom: 5%;
     margin-top: 2.5%;
     font-weight: bold;
-    font-size: 115%;
+    font-size: 100%;
 }
 
 #submit-5:hover {
@@ -53,6 +53,10 @@
 
 #check-list {
     font-size: 150%;
+}
+
+#checking {
+    padding-top: 2%;
 }
 
 #stats {
