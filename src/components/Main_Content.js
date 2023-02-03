@@ -36,23 +36,25 @@ render() {
                   <h6 className="card-subtitle" id="subtitle">How much revenue is your laboratory leaving on the table?</h6>
                 </div>
 
-            <div className="form-row justify-content-center">
-                <p className="card-text" id="sub-title-1">
-                    <ul id="line-1">
+        <div className="form-row justify-content-center">
+                
+                    <p className="card-text" id="sub-title-1">
+                        <ul id="line-1">
                         <span id="badge" className="badge">
                             <img id="icon-ligo" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1675075008/LigoLab_Template_Scratch_10_jqgdp8_fwilt8.ico" alt="ligo icon"></img>
                         </span>
-                            Schedule a free consultation to learn how you can integrate custom revenue cycle management, automation & executive-level analytics to secure sustained long-term profitability & growth.
-                    </ul>
+                        Schedule a free consultation to learn how you can integrate custom revenue cycle management, automation & executive-level analytics to secure sustained long-term profitability & growth.
+                        </ul>
                        
 
-                    <ul id="line-2">
+                        <ul id="line-2">
                         <span id="badge" className="badge">
                             <img id="icon-ligo" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1675075008/LigoLab_Template_Scratch_10_jqgdp8_fwilt8.ico" alt="ligo icon"></img>
                         </span>
-                            Take advantage of this opportunity to sit down with leading industry professionals responsible for setting the bar, when it comes to laboratory operational success!
-                    </ul>
-                </p>
+                        Take advantage of this opportunity to sit down with leading industry professionals responsible for setting the bar, when it comes to laboratory operational success!
+                        </ul>
+                    </p>
+                
             </div>
         </div>
 
@@ -127,31 +129,25 @@ render() {
         </div>
     </div>
 
-            <div className="form-row justify-content-center">
-                    <button id="submit-1" className="btn btn-primary" type="submit">
-                        Schedule Free Consultation
-                    </button>
-            </div>
+<div id="captcha" className="col-10 justify-content-center">
 
-<div id="captcha" className="form-row justify-content-center">
-
-    <div id="canvas" className="form-row mt-3 justify-content-center">
+<div id="canvas" className="form-row justify-content-center">
         <LoadCanvasTemplate />
     </div>
 
-        <div className="form-row mt-3 justify-content-center">
-            <div className="form-row justify-content-center">
-                <input id="userInput" className="form-control" type="text" name="userInput" placeholder="Enter Captcha® code"></input>
+        <div className="form-row-mx-auto justify-content-center">
+            <div className="form-row-mt-3 justify-content-center">
+                <input id="userInput" className="form-control" type="text" name="userInput" placeholder="Enter Captcha® code...here"></input>
             </div>
         </div>
 
-        <div className="form-row mt-3 justify-content-center" id="buttons">
-            <button className="btn btn-primary" id="submit-code" onClick={ () => this.submitMyForm() }>
-                <i id="code" class="fa-solid fa-qrcode"></i> - Submit
-            </button>
+          <div className="form-row justify-content-center">
+                    <button id="submit-1" className="btn btn-primary" type="submit" onClick={ () => this.submitMyForm() }>
+                        Schedule Free Consultation
+                    </button>
+            </div>
 </div>
-                
-</div>
+
 </form>
 </div>
 </div>

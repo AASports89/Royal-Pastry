@@ -4,36 +4,18 @@
     background-position: center;
     border-radius: 0.5em;
     float: right;
-}
-
-#canvas {
-    margin-right: 5%;
+    margin-top: 2.5%;
+    padding-top: 2.5%;
 }
 
 #buttons {
     padding: 2%;
-    margin-left: 4%;
 }
 
 #code {
     padding: 1%;
 }
 
-#submit-code {
-    background: linear-gradient(rgb(14, 76, 175) 0%, rgb(161, 200, 245) 80%);
-    font-weight: bold;
-    padding: 3.5%;
-    font-size: 125%;
-}
-
-#submit-code:hover {
-    background: linear-gradient(rgb(138, 139, 140) 0%, rgb(222, 224, 225) 80%);
-    transition: all 0.3s ease-in-out;
-    color: black;
-}
-
 #userInput {
-    margin-right: 2%;
     margin-bottom: 2.5%;
-    margin-left: 1%;
 }
