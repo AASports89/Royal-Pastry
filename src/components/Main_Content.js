@@ -37,26 +37,24 @@ render() {
                 </div>
 
               <p className="card-text" id="sub-title-1">
+
                 <ul id="line-1">
                     <span id="badge" className="badge">
                         <img id="icon-ligo" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1675075008/LigoLab_Template_Scratch_10_jqgdp8_fwilt8.ico" alt="ligo icon"></img>
                     </span>
                     Schedule a free consultation to learn how you can integrate custom revenue cycle management, automation 
                 </ul>
-                 
-                    <ul id="next">& executive-level analytics to secure sustained long-term profitability & growth.</ul>
-              </p>
+                <span id="span"> & executive-level analytics to secure sustained long-term profitability & growth.</span>
 
-                <p className="card-text" id="sub-title-1">
-                    <ul id="line-1">
+
+                <ul id="line-2">
                     <span id="badge" className="badge">
                         <img id="icon-ligo" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1675075008/LigoLab_Template_Scratch_10_jqgdp8_fwilt8.ico" alt="ligo icon"></img>
                     </span>
-                   
-                        Take advantage of this opportunity to sit down with leading industry professionals responsible for
-                        setting the
-                    </ul>
-                    <ul id="next">bar when it comes to laboratory operational success!</ul>
+                        Take advantage of this opportunity to sit down with leading industry professionals responsible for setting the  
+                </ul>
+                <span id="span">bar, when it comes to laboratory operational success!</span>
+
                 </p>
           </div>
 <div className="col-3 justify-content-center">

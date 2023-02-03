@@ -63,10 +63,17 @@
 }
 
 #line-1 {
-    font-size: 95%;
+    font-size: 100%;
+    text-align: left;
 }
 
-#next {
+#line-2 {
+    font-size: 100%;
+    text-align: left;
+    padding-top: 1%;
+}
+
+#span {
     padding-left: 10%;
 }
 
