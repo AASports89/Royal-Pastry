@@ -14,8 +14,7 @@ import Footer from "./components/Footer.js";
 import Main from './views/main';
 import Revenue_gaps from './views/revenue_gaps';
 import Project from './views/carousel';
-
-
+import Body_View from './views/body';
 import "./styles/index.scss";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -25,7 +24,9 @@ root.render(
 		<Header />
 		<Header_nav />
 		<Main />
+			
 		<Revenue_gaps />
+		<Body_View />
 		<Project />
 		<Footer />
 	</React.Fragment>

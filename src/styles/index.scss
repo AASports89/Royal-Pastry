@@ -15,7 +15,7 @@
 }
 
 @keyframes move {
-  from { top: -80px;}
+  from { top: -2.5%;}
   to   { top: 0; }
 }
 
@@ -33,6 +33,7 @@
     background: no-repeat url("https://res.cloudinary.com/dhqsixgmo/image/upload/v1674811212/LigoLab_Template_Scratch_9_xwrhr4.svg");
     background-size: cover;
     padding-top: 2.5%;
+    border-radius: 0.75em;
 }
 
 #main-header {
@@ -77,12 +78,16 @@
 #submit-top {
     background: linear-gradient(rgb(14, 76, 175) 0%, rgb(161, 200, 245) 80%);
     margin-top: 0.5%;
+    margin-bottom: 2.5%;
+    font-weight: bold;
+    font-size: 175%;
 }
 
 #submit-top:hover {
     background: linear-gradient(rgb(138, 139, 140) 0%, rgb(222, 224, 225) 80%);
     transition: all 0.3s ease-in-out;
     color: black;
+    border: 1px solid black;
 }
 
 #gaps {
@@ -135,6 +140,18 @@
 #main {
     border: none;
     background: transparent;
+}
+
+#qr-card {
+    background: no-repeat url("https://res.cloudinary.com/dhqsixgmo/image/upload/v1675369204/LigoLab_Template_Scratch_2_ytkbam.svg");
+    background-size: cover;
+    background-position: center;
+}
+
+#qr-card-1 {
+    padding: 20%;
+    background: none;
+    border: none;
 }
 
 // .fade-in-nav {

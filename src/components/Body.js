@@ -11,7 +11,7 @@ render() {
 <div className="component-container" id="last-section">
     <h1 className="card-header" id="h2">Increase Your Workflow Efficiency Without Sacrificing Precision & Accuracy</h1>
     <div className="row justify-content-md-center">
-        <h5 className="card-title" id="check-title-1">Implementing a configurable platform combined with automation means your billing workflow is monitored 24/7 & 365-days per year:</h5>
+        <h5 className="card-title" id="check-title-1">Implementing a configurable platform combined with automation means your billing workflow is monitored "24/7 & 365-days/year":</h5>
         <div data-aos="slide-right" className="col-4">
             <h2 id="check-list-title">Experience & Dedication</h2>
             <ul id="check-row"><i id="final-check" className="fa-solid fa-check"></i> - "Round-the-clock" customer service & technical support</ul>
@@ -41,8 +41,9 @@ render() {
         <a id="submit-2" className="btn btn-primary" href="#contact-form">Schedule Free Consultation</a>
     </div>
 
-     </div>
-     <div cclassName="container-fluid" id="monitor">
+</div>
+
+<div className="container-fluid" id="monitor">
 
     <h1 className="card-header" id="h3">Customizable, Scalable & Adaptable RCM Solutions</h1>
 
@@ -97,35 +98,39 @@ render() {
             </div>
         </div>
 
-        <div data-aos="slide-left" class="col-7" id="dashboard">
-        </div>
+        <div data-aos="slide-left" class="col-7" id="dashboard"></div>
     </div>
 </div>
 
 <div class="container" id="divider-2">
 </div>
 
-<div class="container-fluid">
+<div class="container-fluid" id='compliance'>
     <h1 class="card-header" id="h4">Maximize Revenue Capture Through Exceptional Compliance</h1>
     <div class="row justify-content-md-center">
         <div class="row justify-content-md-center">
-            <div data-aos="slide-right" class="col-6" id="award">
-            </div>
-            <div data-aos="slide-left" class="col-6">
+    
+        <div data-aos="zoom-in" class="col-12">
             <p id="award-text">
                 In today's stringent regulatory compliance landscape, establishing an efficient workflow &
-                optimized revenue cycle isn't enough. All streamlined processes and improved billing methods
-                must be anchored to security, transparency, and accuracy. LigoLab™ practices regular internal review of
-                regulatory compliance guidelines, while striving to further develop it's operating platform's infrastructure
-                ensuring every claim is processed accurately, rapidly, and securely.
+                optimized revenue cycle isn't enough:
+                <li id='award-line'>
+                    All streamlined operational processes & innovative billing methods 
+                    are anchored to security, transparency & accuracy. 
+                </li>
+                <li id='award-line-1'>
+                    LigoLab™ practices regular internal review of regulatory 
+                    compliance guidelines, while striving to further develop it's
+                    <ol id="al">
+                        operating platform's infrastructure ensuring every claim is
+                        processed accurately, rapidly & securely.
+                    </ol>
+                </li>
             </p>
             </div>
         </div>
         </div>
     </div>
-
-<div class="container" id="divider-3">
-</div>
 
 </div>
 

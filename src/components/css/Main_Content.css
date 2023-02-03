@@ -1,3 +1,7 @@
+#title-m {
+    text-align: center;
+}
+
 #m-sub {
     font-weight: bold;
     background: -webkit-linear-gradient(rgb(72, 73, 74) 0%, rgb(199, 202, 207) 80%); /* Chrome 10-25, Safari 5.1-6 */
@@ -39,6 +43,7 @@
     line-height: 1.35em;
     padding-left: 7.5%;
     padding-right: 2.5%;
+    text-align: center;
 }
 
 #badge {
@@ -57,18 +62,26 @@
     text-align: left;
 }
 
+#line-1 {
+    font-size: 95%;
+}
+
 #next {
     padding-left: 10%;
 }
 
 #icon-ligo {
     width: 50%;
+    margin: 0%;
+    padding: 0%;
 }
 
 #title-m {
     margin-top: 5%;
     padding-bottom: 2.5%;
     font-size: 300%;
+    font-weight: bold;
+    color: black;
 }
 
 #ast {
@@ -78,7 +91,10 @@
 
 #submit-1 {
     background: linear-gradient(rgb(14, 76, 175) 0%, rgb(161, 200, 245) 80%);
-    margin-bottom: 5%;
+    margin-bottom: 2.5%;
+    margin-top: 2.5%;
+    font-weight: bold;
+    font-size: 150%;
 }
 
 #submit-1:hover {

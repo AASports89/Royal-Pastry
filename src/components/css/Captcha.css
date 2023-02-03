@@ -1,0 +1,46 @@
+#captcha {
+    background: url("https://res.cloudinary.com/dhqsixgmo/image/upload/v1675392895/LigoLab_Template_Scratch_12_hagmwf.svg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 0.5em;
+    float: right;
+}
+
+
+#buttons {
+    padding: 2%;
+}
+
+#refresh {
+    background: linear-gradient(rgb(14, 76, 175) 0%, rgb(161, 200, 245) 80%);
+    margin-bottom: 5%;
+    padding: 3%;
+}
+
+#refresh:hover {
+    background: linear-gradient(rgb(138, 139, 140) 0%, rgb(222, 224, 225) 80%);
+    transition: all 0.3s ease-in-out;
+    color: black;
+}
+
+#refresh-sync {
+    font-size: 150%;
+}
+
+#code {
+    font-size: 100%;
+}
+
+#submit-code {
+    background: linear-gradient(rgb(14, 76, 175) 0%, rgb(161, 200, 245) 80%);
+    font-weight: bold;
+    padding: 1.5%;
+    font-size: 150%;;
+
+}
+
+#submit-code:hover {
+    background: linear-gradient(rgb(138, 139, 140) 0%, rgb(222, 224, 225) 80%);
+    transition: all 0.3s ease-in-out;
+    color: black;
+}

@@ -18,12 +18,15 @@
     background: linear-gradient(rgb(14, 76, 175) 0%, rgb(161, 200, 245) 80%);
     margin-bottom: 5%;
     margin-top: 2.5%;
+    font-weight: bold;
+    font-size: 115%;
 }
 
 #submit-5:hover {
     background: linear-gradient(rgb(138, 139, 140) 0%, rgb(222, 224, 225) 80%);
     transition: all 0.3s ease-in-out;
     color: black;
+    border: 1px solid black;
 }
 
 #check {
@@ -33,6 +36,8 @@
     -webkit-background-clip: text;
     color: transparent;
     font-size: 125%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
 }
 
 #gap {
@@ -53,6 +58,8 @@
 #stats {
     font-size: 150%;
     font-weight: bold;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
 }
 
 #stats-div {
@@ -61,6 +68,7 @@
     background-size: cover;
     border: none;
     padding-bottom: 5%;
+    border-radius: 0.5em;
 }
 
 #stats-div-1 {
@@ -68,10 +76,11 @@
     padding-top: 2.5%;
     border: none;
     padding-bottom: 2.5%;
+    font-size: 150%;
 }
 
 #clean-claim {
-    font-size: 150%;
+    font-size: 200%;
     background: -webkit-linear-gradient(rgb(2, 62, 204) 0%, rgb(86, 154, 250) 80%); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(rgb(2, 62, 204) 0%, rgb(86, 154, 250) 80%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     -webkit-background-clip: text;

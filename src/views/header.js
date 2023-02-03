@@ -26,7 +26,7 @@ export default function Header_nav() {
 			<div className="top-container flex">
 	
 				<h5 id="h5"  className="card-title">Discover the Power of Implementing Innovation & Automation:</h5>
-                <h4 className="card-title" id="m-sub"> A Single-Source of Truth About Laboratory Operational Success</h4>
+                <h4 className="card-title" id="m-sub"> A Single-Source of Truth For Laboratory Operational Success</h4>
 
 				<button id="submit-top" className={"btn btn-outline-light wow bounceIn"} data-wow-offset="0"
 					onClick={() => SmoothScrollTo("contact-form")}>
