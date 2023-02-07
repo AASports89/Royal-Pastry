@@ -20,7 +20,7 @@ render() {
             <ul id="check-row"><i id="final-check" className="fa-solid fa-check"></i> - Flexible to handle any amount of volume</ul>
             <ul id="check-row"><i id="final-check" className="fa-solid fa-check"></i> - Full transparency across the board</ul>
         </div>
-        <div data-aos="slide-down" className="col-4">
+        <div data-aos="zoom-out" data-aos-anchor-placement="center" className="col-4">
             <h2 id="check-list-title">Non-Stop Communication</h2>
             <ul id="check-row"><i id="final-check" className="fa-solid fa-bolt"></i> - Custom workflow tags & data-entity filters</ul>
             <ul id="check-row"><i id="final-check" className="fa-solid fa-bolt"></i> - "Real-time" patient demographic data verification</ul>
@@ -48,7 +48,7 @@ render() {
     <h1 className="card-header" id="h3">Customizable, Scalable & Adaptable RCM Solutions</h1>
 
     <div className="row justify-content-center">
-        <div data-aos="slide-right" id='check-col' className="col-4">
+        <div data-aos="flip-right" id='check-col' className="col-4">
             <h2 id="check-list-title-1">Payment Posting Services</h2>
             <ul id="check-row-1"><i id="final-check-1" className="fa-solid fa-signs-post"></i> - Insurance Eligibility & Address Verification</ul>
             <ul id="check-row-1"><i id="final-check-1" className="fa-solid fa-signs-post"></i> - CPT Code Focused Payment Posting</ul>
@@ -56,7 +56,7 @@ render() {
             <ul id="check-row-1"><i id="final-check-1" className="fa-solid fa-signs-post"></i> - Accurate Claim Submissions On the First Time</ul>
             <ul id="check-row-1"><i id="final-check-1" className="fa-solid fa-signs-post"></i> - Payer Directed Rule Configuration</ul>
         </div>
-        <div data-aos="slide-down" id='check-col' className="col-4">
+        <div data-aos="flip-down" id='check-col' className="col-4">
             <h2 id="check-list-title-1">Reimbursement & Payer Management</h2>
             <ul id="check-row-1"><i id="final-check-1" className="fa-regular fa-credit-card"></i> - EOB Follow-Up Protocols</ul>
             <ul id="check-row-1"><i id="final-check-1" className="fa-regular fa-credit-card"></i> - Denial & Appeal Management</ul>
@@ -64,7 +64,7 @@ render() {
             <ul id="check-row-1"><i id="final-check-1" className="fa-regular fa-credit-card"></i> - Unpaid Claim Re-Adjudication</ul>
             <ul id="check-row-1"><i id="final-check-1" className="fa-regular fa-credit-card"></i> - Payer-Specific Follow-Up Strategies</ul>
         </div>
-        <div data-aos="slide-left" id='check-col' className="col-4">
+        <div data-aos="flip-left" id='check-col' className="col-4">
             <h2 id="check-list-title-1">Patient-Centric Services</h2>
             <ul id="check-row-1"><i id="final-check-1" className="fa-solid fa-print"></i> - Branded Online Payment Portal</ul>
             <ul id="check-row-1"><i id="final-check-1" class="fa-solid fa-print"></i> - Paper & Electronic Statements</ul>
@@ -78,7 +78,7 @@ render() {
 <div className="container-fluid" id="dash-cont">
     <h1 cclassName="card-header" id="h3">Real-Time Data Analytics</h1>
     <div className="row justify-content-md-center">
-        <div data-aos="slide-down" className="row justify-content-md-center">
+        <div data-aos="zoom-in" className="row justify-content-md-center">
             <p id='dash-text'>
                 Taking into account the current growing trend of reliance on analytical data within the majority of healthcare related services,
                 laboratory executives must leverage analytics tools to streamline workflow management and build accurate fiscal projections.
@@ -110,7 +110,7 @@ render() {
     <div class="row justify-content-md-center">
         <div class="row justify-content-md-center">
     
-        <div data-aos="zoom-in" class="col-12">
+        <div data-aos="zoom-out" data-aos-anchor-placement="center" class="col-12">
             <p id="award-text">
                 In today's strict regulatory compliance landscape, establishing an efficient workflow &
                 optimized revenue cycle isn't enough:

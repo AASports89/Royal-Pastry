@@ -4,7 +4,6 @@ import SmoothScrollTo from "../hooks/smoothScrollTo";
 
 import './css/Header.css';
 
-
 export default function Header() {
 	
     useEffect(() => {
@@ -26,11 +25,12 @@ export default function Header() {
 
     return (
 		<div>
-			<nav
+			<nav data-aos="slide-down"
 				id="navbar"
 				className="container-fluid navbar navbar-expand-lg navbar-light bg-light">
 				<div className="container" id="my-background">
 					<a id="main-logo-link"
+						href="www.ligolab.com"
 						className="home-style navbar-brand"
 						onClick={() => {
 							window.scrollTo({
@@ -43,9 +43,9 @@ export default function Header() {
 
 					</a>
 						<div className="navbar-nav">
-							<a onClick={() => SmoothScrollTo("contact-form")} id="nav-link" className="btn-style nav-item nav-link">SCHEDULE FREE CONSULTATION</a>
-							<a onClick={() => SmoothScrollTo("revenue_gaps")} id="nav-link" className="btn-style nav-item nav-link">A SINGLE-SOURCE OF TRUTH</a>
-							<a onClick={() => SmoothScrollTo("carousel")} id="nav-link" className="btn-style nav-item nav-link">LIGOLAB™ PARTNERSHIPS</a>
+							<a onClick={() => SmoothScrollTo("contact-form")} href="#contact-form" id="nav-link" className="btn-style nav-item nav-link">SCHEDULE FREE CONSULTATION</a>
+							<a onClick={() => SmoothScrollTo("revenue_gaps")} href="#revenue_gaps" id="nav-link" className="btn-style nav-item nav-link">A SINGLE-SOURCE OF TRUTH</a>
+							<a onClick={() => SmoothScrollTo("carousel")} href="#carousel" id="nav-link" className="btn-style nav-item nav-link">LIGOLAB™ PARTNERSHIPS</a>
 						</div>
 					</div>
 			</nav>

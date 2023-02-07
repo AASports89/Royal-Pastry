@@ -24,7 +24,6 @@ root.render(
 		<Header />
 		<Header_nav />
 		<Main />
-			
 		<Revenue_gaps />
 		<Body_View />
 		<Project />

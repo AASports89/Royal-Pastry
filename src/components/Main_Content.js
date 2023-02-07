@@ -39,16 +39,16 @@ render() {
         <div className="form-row justify-content-center">
                 
                     <p className="card-text" id="sub-title-1">
-                        <ul id="line-1">
-                        <span id="badge" className="badge">
+                        <ul id="line-1" data-aos="flip-left">
+                        <span id="badge" data-aos="zoom-in-left" className="badge">
                             <img id="icon-ligo" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1675075008/LigoLab_Template_Scratch_10_jqgdp8_fwilt8.ico" alt="ligo icon"></img>
                         </span>
                         Schedule a free consultation to learn how you can integrate custom revenue cycle management, automation & executive-level analytics to secure sustained long-term profitability & growth.
                         </ul>
                        
 
-                        <ul id="line-2">
-                        <span id="badge" className="badge">
+                        <ul id="line-2" data-aos="flip-right">
+                        <span id="badge" data-aos="zoom-in-right" className="badge">
                             <img id="icon-ligo" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1675075008/LigoLab_Template_Scratch_10_jqgdp8_fwilt8.ico" alt="ligo icon"></img>
                         </span>
                         Take advantage of this opportunity to sit down with leading industry professionals responsible for setting the bar, when it comes to laboratory operational success!
@@ -63,7 +63,7 @@ render() {
 </div>
 
     <div className="row justify-content-center">
-        <div data-aos="slide-left" className="col-6 justify-content-center" id="contact-form">
+        <div data-aos="fade-up" data-aos-duration="3000" className="col-6 justify-content-center" id="contact-form">
             <h2 className="card-title" id="title-m">Schedule A Free RCM Consultation Today!</h2>
 
         <form className="wow pulse" action="https://formspree.io/f/maykpnjz" method="POST">
