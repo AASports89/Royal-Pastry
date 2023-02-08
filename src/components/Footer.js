@@ -1,5 +1,4 @@
 import React from "react";
-//IMPORT CSS --> FOOTER//
 import './css/Footer.css';
 
 export default function Footer() {
@@ -17,14 +16,14 @@ export default function Footer() {
 								href="https://www.ligolab.com"
 								target="_blank"
 								rel="noopener noreferrer">
-								<img id="footer-logo" className="img-fluid" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1675156396/LigoLab_Template_Scratch_10_kbzvqf.svg" alt="ligolab.com" />
+								<img data-aos="zoom-in" id="footer-logo" className="img-fluid" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1675156396/LigoLab_Template_Scratch_10_kbzvqf.svg" alt="ligolab.com" />
 							</a>
 
 							<div className="row justify-content-md-center">
-								<h5 id="footer-logo-sub">Laboratory Information System & </h5>
+								<h5 data-aos="flip-right" id="footer-logo-sub">Laboratory Information System & </h5>
 							</div>
 							<div className="row justify-content-md-center">
-								<h5 id="footer-logo-sub">Revenue Cycle Management Operating Platform</h5>
+								<h5 data-aos="flip-left" id="footer-logo-sub">Revenue Cycle Management Operating Platform</h5>
 							</div>
 
 							<a
@@ -32,7 +31,7 @@ export default function Footer() {
 								href="https://#"
 								target="_blank"
 								rel="noopener noreferrer">
-								<i id="footer-font" className="fa-brands fa-square-twitter"></i>
+								<i data-aos="slide-left" id="footer-font" className="fa-brands fa-square-twitter"></i>
 							</a>
 
 							<a
@@ -40,7 +39,7 @@ export default function Footer() {
 								href="https://#"
 								target="_blank"
 								rel="noopener noreferrer">
-								<i id="footer-font" className="fa-brands fa-linkedin"></i>
+								<i data-aos="slide-down" id="footer-font" className="fa-brands fa-linkedin"></i>
 							</a>
 
 							<a
@@ -48,14 +47,14 @@ export default function Footer() {
 								href="https://#"
 								target="_blank"
 								rel="noopener noreferrer">
-								<i id="footer-font" className="fa-brands fa-square-facebook"></i>
+								<i data-aos="slide-right" id="footer-font" className="fa-brands fa-square-facebook"></i>
 							</a>
 
 						</div>
 					</div>
 					<div className="row justify-content-center">
 					<div className="col-12 justify-content-center" id="footer-div">
-						<p id="footer-title">LigoLab™ Information System 2006 - {year}</p>
+						<p id="footer-title">LigoLab Information System™ 2006 - {year}</p>
 						<p id="footer-title-1">Terms & Conditions | Privacy Policy</p>
 					</div>
 					</div>

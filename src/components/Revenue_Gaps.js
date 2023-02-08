@@ -44,29 +44,33 @@ render() {
         </div>
     </div>
 
+
 <div data-aos="zoom-in" className="container" id="stats-div">
     <div className="row" id="stats-row">
         <div className="col-4">
             <div className="card text-center" id="stats-div-1">
                 <h1 className="card-title"><i id="clean-claim" class="fa-solid fa-chart-pie"></i></h1>
-                    <p className="card-text" data-aos="fade-up" id="stats"><CountUp enableScrollSpy={true}  start={0} end={98} duration={3} />% Clean Claims First-Pass Rate</p>
+                    <p className="card-text" data-aos="fade-up" id="stats"><CountUp enableScrollSpy={true} start={0} end={98} duration={3} />% Clean Claims <span id="ref" >First-Pass Rate</span></p>
             </div>
         </div>
 
         <div className="col-4">
             <div className="card text-center" id="stats-div-1">
                 <h1 className="card-title"><i id="clean-claim" class="fa-solid fa-sack-dollar"></i></h1>
-                    <p className="card-text" data-aos="fade-up" id="stats"><CountUp enableScrollSpy={true} start={0} end={30} duration={3} />% Higher Net Collections</p>
+                    <p className="card-text" data-aos="fade-up" id="stats"><CountUp enableScrollSpy={true} start={0} end={30} duration={3} />% <span id="ref">Higher Net Collections</span></p>
             </div>
         </div>
 
         <div className="col-4">
             <div className="card text-center" id="stats-div-1">
+               
                 <h1 className="card-title"><i id="clean-claim" class="fa-solid fa-chart-line"></i></h1>
-                    <p className="card-text" data-aos="fade-up" id="stats">Average of <CountUp enableScrollSpy={true} start={0} end={31} duration={3} />% Revenue Growth</p>
+                    <p className="card-text" data-aos="fade-up" id="stats">Average of <CountUp enableScrollSpy={true} start={0} end={31} duration={3} ref={document.getElementById('#ref')}/>% <span id="ref" >Revenue Growth</span></p>
             </div>
         </div>
+        
     </div>
+     
 </div>
 </div>
 

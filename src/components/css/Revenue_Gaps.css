@@ -95,3 +95,10 @@
     font-size: 150%;
     font-weight: bold;
 }
+
+#ref {
+    background: -webkit-linear-gradient(rgb(1, 116, 15) 0%, rgb(81, 225, 59) 80%); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgb(1, 116, 15) 0%, rgb(81, 225, 59) 80%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    color: transparent;
+}
