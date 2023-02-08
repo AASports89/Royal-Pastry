@@ -16,6 +16,7 @@ import Revenue_gaps from './views/revenue_gaps';
 import Project from './views/carousel';
 import Body_View from './views/body';
 import "./styles/index.scss";
+import "./styles/small-device.scss";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 

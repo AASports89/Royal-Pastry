@@ -14,11 +14,6 @@
     align-items: center;
 }
 
-// @keyframes move {
-//   from { top: -2.5%;}
-//   to   { top: 0; }
-// }
-
 #navbar {
     height: 200px;
     justify-content: center;
@@ -51,8 +46,8 @@
     padding: 3%;
     font-size: 130%;
     margin-right: -5%;
-    background: -webkit-linear-gradient(rgb(58, 58, 60) 0%, rgb(206, 214, 225) 80%); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(rgb(58, 58, 60) 0%, rgb(206, 214, 225) 80%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(rgb(58, 58, 60) 50%, rgb(206, 214, 225) 100%); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgb(58, 58, 60) 50%, rgb(206, 214, 225) 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     -webkit-background-clip: text;
     color: transparent;
 }
@@ -153,16 +148,3 @@
     background: none;
     border: none;
 }
-
-// .fade-in-nav {
-//   animation: move 5s alternate;
-//   position: fixed;
-//   top: 0;
-//   right: 0;
-//   left: 0;
-//   z-index: 10;
-// }
-
-// .fade-in-nav + .content-containers {
-//   padding-top: 60px;
-// }
