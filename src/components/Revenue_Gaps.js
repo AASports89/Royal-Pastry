@@ -1,29 +1,6 @@
-import React, { Component, useEffect, useState }  from 'react';
+import React, { Component } from 'react';
+import CountUp from 'react-countup';
 import './css/Revenue_Gaps.css';
-
-const easeOutQuad = t => t * ( 2 - t );
-const frameDuration = 1000 / 60;
-
-    const CountUpAnimation = ( { children, duration = 5000 } ) => {
-        const countTo = parseInt( children, 10 );
-        const [ count, setCount ] = useState( 0 );
-
-    useEffect( () => {
-		let frame = 0;
-		const totalFrames = Math.round( duration / frameDuration );
-		const counter = setInterval( () => {
-			frame++;
-			const progress = easeOutQuad( frame / totalFrames );
-			setCount( countTo * progress );
-
-			if ( frame === totalFrames ) {
-				clearInterval( counter );
-			}
-		}, frameDuration );
-	}, [] );
-
-	return Math.floor( count );
-};
 
 class Revenue_Gaps extends Component {
 
@@ -72,21 +49,21 @@ render() {
         <div className="col-4">
             <div className="card text-center" id="stats-div-1">
                 <h1 className="card-title"><i id="clean-claim" class="fa-solid fa-chart-pie"></i></h1>
-                    <p className="card-text" id="stats"><CountUpAnimation>98</CountUpAnimation>% Clean Claims First-Pass Rate</p>
+                    <p className="card-text" data-aos="fade-up" id="stats"><CountUp enableScrollSpy={true}  start={0} end={98} duration={3} />% Clean Claims First-Pass Rate</p>
             </div>
         </div>
 
         <div className="col-4">
             <div className="card text-center" id="stats-div-1">
                 <h1 className="card-title"><i id="clean-claim" class="fa-solid fa-sack-dollar"></i></h1>
-                    <p className="card-text" id="stats"><CountUpAnimation>30</CountUpAnimation>% Higher Net Collections</p>
+                    <p className="card-text" data-aos="fade-up" id="stats"><CountUp enableScrollSpy={true} start={0} end={30} duration={3} />% Higher Net Collections</p>
             </div>
         </div>
 
         <div className="col-4">
             <div className="card text-center" id="stats-div-1">
                 <h1 className="card-title"><i id="clean-claim" class="fa-solid fa-chart-line"></i></h1>
-                    <p className="card-text" id="stats">Average of <CountUpAnimation>31</CountUpAnimation>% Revenue Growth</p>
+                    <p className="card-text" data-aos="fade-up" id="stats">Average of <CountUp enableScrollSpy={true} start={0} end={31} duration={3} />% Revenue Growth</p>
             </div>
         </div>
     </div>
