@@ -27,13 +27,14 @@ export default function Header_nav() {
 	
 				<h5 data-aos="zoom-in" id="h5"  className="card-title">Discover the Power of Implementing Innovation & Automation:</h5>
                 <h4 data-aos="zoom-in" className="card-title" id="m-sub"> A Single-Source of Truth For Laboratory Operational Success</h4>
-
+				
 				<button data-aos="slide-left" id="submit-top" className={"btn btn-outline-light wow bounceIn"} data-wow-offset="0"
 					onClick={() => SmoothScrollTo("contact-form")}>
 					Schedule Free Consultation
 				</button>
 			</div>
 		</div>
+		
 		</div>
 	);
 }

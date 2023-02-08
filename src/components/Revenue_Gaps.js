@@ -1,50 +1,31 @@
-import React,{ Component } from 'react';
+import React, { Component, useEffect, useState }  from 'react';
 import './css/Revenue_Gaps.css';
 
-const animationDuration = 2000;
-// Calculate how long each ‘frame’ should last if we want to update the animation 60 times per second
-const frameDuration = 1000 / 60;
-// Use that to calculate how many frames we need to complete the animation
-const totalFrames = Math.round( animationDuration / frameDuration );
-// An ease-out function that slows the count as it progresses
 const easeOutQuad = t => t * ( 2 - t );
+const frameDuration = 1000 / 60;
 
-// The animation function, which takes an Element
-const animateCountUp = el => {
-	let frame = 0;
-	const countTo = parseInt( el.innerHTML, 10 );
-	// Start the animation running 60 times per second
-	const counter = setInterval( () => {
-		frame++;
-		// Calculate our progress as a value between 0 and 1
-		// Pass that value to our easing function to get our
-		// progress on a curve
-		const progress = easeOutQuad( frame / totalFrames );
-		// Use the progress value to calculate the current count
-		const currentCount = Math.round( countTo * progress );
+    const CountUpAnimation = ( { children, duration = 5000 } ) => {
+        const countTo = parseInt( children, 10 );
+        const [ count, setCount ] = useState( 0 );
 
-		// If the current count has changed, update the element
-		if ( parseInt( el.innerHTML, 10 ) !== currentCount ) {
-			el.innerHTML = currentCount;
-		}
+    useEffect( () => {
+		let frame = 0;
+		const totalFrames = Math.round( duration / frameDuration );
+		const counter = setInterval( () => {
+			frame++;
+			const progress = easeOutQuad( frame / totalFrames );
+			setCount( countTo * progress );
 
-		// If we’ve reached our last frame, stop the animation
-		if ( frame === totalFrames ) {
-			clearInterval( counter );
-		}
-	}, frameDuration );
+			if ( frame === totalFrames ) {
+				clearInterval( counter );
+			}
+		}, frameDuration );
+	}, [] );
+
+	return Math.floor( count );
 };
-
-// Run the animation on all elements with a class of ‘countup’
-const runAnimations = () => {
-	const countupEls = document.querySelectorAll( '.countup' );
-	countupEls.forEach( animateCountUp );
-};
-console.log(runAnimations());
 
 class Revenue_Gaps extends Component {
-
-    // How long you want the animation to take, in ms
 
 render() {
 
@@ -91,21 +72,21 @@ render() {
         <div className="col-4">
             <div className="card text-center" id="stats-div-1">
                 <h1 className="card-title"><i id="clean-claim" class="fa-solid fa-chart-pie"></i></h1>
-                    <p className="card-text" id="stats"><span class="countup">98</span>% Clean Claims First-Pass Rate</p>
+                    <p className="card-text" id="stats"><CountUpAnimation>98</CountUpAnimation>% Clean Claims First-Pass Rate</p>
             </div>
         </div>
 
         <div className="col-4">
             <div className="card text-center" id="stats-div-1">
                 <h1 className="card-title"><i id="clean-claim" class="fa-solid fa-sack-dollar"></i></h1>
-                    <p className="card-text" id="stats"><span class="countup">30</span>% Higher Net Collections</p>
+                    <p className="card-text" id="stats"><CountUpAnimation>30</CountUpAnimation>% Higher Net Collections</p>
             </div>
         </div>
 
         <div className="col-4">
             <div className="card text-center" id="stats-div-1">
                 <h1 className="card-title"><i id="clean-claim" class="fa-solid fa-chart-line"></i></h1>
-                    <p className="card-text" id="stats">Average of <span class="countup">31</span>% Revenue Growth</p>
+                    <p className="card-text" id="stats">Average of <CountUpAnimation>31</CountUpAnimation>% Revenue Growth</p>
             </div>
         </div>
     </div>
