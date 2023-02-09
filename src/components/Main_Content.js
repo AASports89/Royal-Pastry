@@ -41,7 +41,7 @@ render() {
                     <p className="card-text" id="sub-title-1">
                         <ul id="line-1" data-aos="flip-left">
                         <span id="badge" data-aos="zoom-in-left" className="badge">
-                            <img id="icon-ligo" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1675075008/LigoLab_Template_Scratch_10_jqgdp8_fwilt8.ico" alt="ligo icon"></img>
+                            <img id="icon-ligo" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1675882601/ligo_logo_k9avxm.svg" alt="ligo icon"></img>
                         </span>
                         Schedule a free consultation to learn how you can integrate custom revenue cycle management, automation & executive-level analytics to secure sustained long-term profitability & growth.
                         </ul>
@@ -49,7 +49,7 @@ render() {
 
                         <ul id="line-2" data-aos="flip-right">
                         <span id="badge" data-aos="zoom-in-right" className="badge">
-                            <img id="icon-ligo" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1675075008/LigoLab_Template_Scratch_10_jqgdp8_fwilt8.ico" alt="ligo icon"></img>
+                            <img id="icon-ligo" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1675882601/ligo_logo_k9avxm.svg" alt="ligo icon"></img>
                         </span>
                         Take advantage of this opportunity to sit down with leading industry professionals responsible for setting the bar, when it comes to laboratory operational success!
                         </ul>

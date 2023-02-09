@@ -20,10 +20,21 @@ export default function Footer() {
 							</a>
 
 							<div className="row justify-content-md-center">
-								<h5 data-aos="flip-right" id="footer-logo-sub">Laboratory Information System & </h5>
+
+								<h5 data-aos="flip-right" id="footer-logo-sub">
+									<span id="badge-1" data-aos="zoom-in-right" className="badge">
+                            			<img id="icon-ligo" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1675882601/ligo_logo_k9avxm.svg" alt="ligo icon"></img>
+                        			</span>
+									<a id="lis" href="https://www.ligolab.com/post/best-lis-laboratory-information-system-software-management">Laboratory Information System (LIS)</a>
+								</h5>
 							</div>
 							<div className="row justify-content-md-center">
-								<h5 data-aos="flip-left" id="footer-logo-sub">Revenue Cycle Management Operating Platform</h5>
+								<h5 data-aos="flip-left" id="footer-logo-sub">
+									<span id="badge-1" data-aos="zoom-in-right" className="badge">
+                            			<img id="icon-ligo" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1675882601/ligo_logo_k9avxm.svg" alt="ligo icon"></img>
+                        			</span>
+									<a id="rcm" href="https://wwww.ligolab.com/solutions/revenue-cycle-management">Revenue Cycle Management (RCM)</a>
+								</h5>
 							</div>
 
 							<a
@@ -54,8 +65,8 @@ export default function Footer() {
 					</div>
 					<div className="row justify-content-center">
 					<div className="col-12 justify-content-center" id="footer-div">
-						<p id="footer-title">LigoLab Information System™ 2006 - {year}</p>
-						<p id="footer-title-1">Terms & Conditions | Privacy Policy</p>
+						<p id="footer-title">© LigoLab Information System 2006 - {year}</p>
+						<p id="footer-title-1"><a id="terms" href="https://www.ligolab.com/terms-and-conditions">Terms</a> <strong>|</strong> <a id="privacy" href="https://www.ligolab.com/privacy-policy">Privacy</a></p>
 					</div>
 					</div>
 					
