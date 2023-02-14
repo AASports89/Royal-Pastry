@@ -1,6 +1,7 @@
 import { Font } from '@react-pdf/renderer';
 import React, { Component } from 'react';
 import CountUp from 'react-countup';
+import Calc from './Calc'
 import './css/Revenue_Gaps.css';
 
 class Revenue_Gaps extends Component {
@@ -68,6 +69,10 @@ render() {
                 <h1 className="card-title"><i id="clean-claim" class="fa-solid fa-chart-line"></i></h1>
                     <p className="card-text" data-aos="fade-up" id="stats">Average of <span id="ref"><CountUp enableScrollSpy={true} start={0} end={31} duration={3} />%</span> Revenue Growth</p>
             </div>
+        </div>
+
+        <div className='row-mx-auto'>
+            <Calc />
         </div>
         
     </div>
