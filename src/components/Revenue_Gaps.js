@@ -1,3 +1,4 @@
+import { Font } from '@react-pdf/renderer';
 import React, { Component } from 'react';
 import CountUp from 'react-countup';
 import './css/Revenue_Gaps.css';
@@ -50,14 +51,14 @@ render() {
         <div className="col-4">
             <div className="card text-center" id="stats-div-1">
                 <h1 className="card-title"><i id="clean-claim" class="fa-solid fa-chart-pie"></i></h1>
-                    <p className="card-text" data-aos="fade-up" id="stats"><CountUp enableScrollSpy={true} start={0} end={98} duration={3} />% Clean Claims <span id="ref" >First-Pass Rate</span></p>
+                    <p className="card-text" data-aos="fade-up" id="stats"><span id="ref"><CountUp enableScrollSpy={true} start={0} end={98} duration={3} />%</span> Clean Claims First-Pass Rate</p>
             </div>
         </div>
 
         <div className="col-4">
             <div className="card text-center" id="stats-div-1">
                 <h1 className="card-title"><i id="clean-claim" class="fa-solid fa-sack-dollar"></i></h1>
-                    <p className="card-text" data-aos="fade-up" id="stats"><CountUp enableScrollSpy={true} start={0} end={30} duration={3} />% <span id="ref">Higher Net Collections</span></p>
+                    <p className="card-text" data-aos="fade-up" id="stats"><span id="ref"><CountUp enableScrollSpy={true} start={0} end={30} duration={3} />%</span> Higher Net Collections</p>
             </div>
         </div>
 
@@ -65,7 +66,7 @@ render() {
             <div className="card text-center" id="stats-div-1">
                
                 <h1 className="card-title"><i id="clean-claim" class="fa-solid fa-chart-line"></i></h1>
-                    <p className="card-text" data-aos="fade-up" id="stats">Average of <CountUp enableScrollSpy={true} start={0} end={31} duration={3} ref={document.getElementById('#ref')}/>% <span id="ref" >Revenue Growth</span></p>
+                    <p className="card-text" data-aos="fade-up" id="stats">Average of <span id="ref"><CountUp enableScrollSpy={true} start={0} end={31} duration={3} />%</span> Revenue Growth</p>
             </div>
         </div>
         

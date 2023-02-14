@@ -1,0 +1,98 @@
+#calc-form {
+  
+}
+
+#title-calc {
+    background: url("https://res.cloudinary.com/dhqsixgmo/image/upload/v1675217535/LigoLab_Template_Scratch_20_xffvsd.svg");
+    background-size: cover;
+    border-radius: 0.5em;
+}
+
+#calc-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 250%;
+    background: -webkit-linear-gradient(rgb(2, 62, 204) 0%, rgb(86, 154, 250) 80%); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgb(2, 62, 204) 0%, rgb(86, 154, 250) 80%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    color: transparent;
+    padding-bottom: 1%;
+    padding-top: 2%;
+}
+
+#calc-subtitle {
+    font-size: 125%;
+    font-weight: bold;
+}
+
+#calc-disp {
+    padding-bottom: 2%;
+    background-image: url("https://res.cloudinary.com/dhqsixgmo/image/upload/v1675217535/LigoLab_Template_Scratch_20_xffvsd.svg");
+    background-size: cover;
+    width: 40%;
+}
+
+#calc-input {
+    padding-top: 1%;
+    width: 40%;
+}
+
+#calc-btns {
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+#calc {
+    background: linear-gradient(rgb(25, 175, 14) 0%, rgb(162, 245, 161) 80%);
+    font-weight: bold;
+    font-size: 115%;
+    color: whitesmoke;
+    margin-right: 2%;
+}
+
+#calc:hover {
+    background: linear-gradient(rgb(138, 139, 140) 0%, rgb(222, 224, 225) 80%);
+    transition: all 0.3s ease-in-out;
+    color: black;
+}
+
+#clear {
+    background: linear-gradient(rgb(138, 139, 140) 0%, rgb(222, 224, 225) 80%);
+    font-weight: bold;
+    font-size: 115%;
+    color: whitesmoke;
+    margin-left: 2%;
+}
+
+#clear:hover {
+    background: linear-gradient(rgb(173, 1, 1) 0%, rgb(247, 122, 122) 80%);
+    transition: all 0.3s ease-in-out;
+    color: black;
+}
+
+#disclaimer {
+    font-size: 75%;
+}
+
+#rev {
+    background: -webkit-linear-gradient(rgb(1, 116, 15) 0%, rgb(81, 225, 59) 80%); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgb(1, 116, 15) 0%, rgb(81, 225, 59) 80%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#result {
+    background: -webkit-linear-gradient(rgb(1, 116, 15) 0%, rgb(81, 225, 59) 80%); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgb(1, 116, 15) 0%, rgb(81, 225, 59) 80%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    font-size: 150%;
+    border: 1px solid black;
+}
+
+#calc-main {
+    background-image: url("https://res.cloudinary.com/dhqsixgmo/image/upload/v1676416836/LL_MEDIA_11_jakypb.svg");
+    background-size: cover;
+    background-position: center;
+}
