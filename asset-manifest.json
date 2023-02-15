@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/RCM-consultation/static/css/main.d4ffec0c.css",
-    "main.js": "/RCM-consultation/static/js/main.bfdfb9d3.js",
+    "main.css": "/RCM-consultation/static/css/main.a1de495f.css",
+    "main.js": "/RCM-consultation/static/js/main.d917fb34.js",
     "index.html": "/RCM-consultation/index.html",
-    "main.d4ffec0c.css.map": "/RCM-consultation/static/css/main.d4ffec0c.css.map",
-    "main.bfdfb9d3.js.map": "/RCM-consultation/static/js/main.bfdfb9d3.js.map"
+    "main.a1de495f.css.map": "/RCM-consultation/static/css/main.a1de495f.css.map",
+    "main.d917fb34.js.map": "/RCM-consultation/static/js/main.d917fb34.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4ffec0c.css",
-    "static/js/main.bfdfb9d3.js"
+    "static/css/main.a1de495f.css",
+    "static/js/main.d917fb34.js"
   ]
 }
