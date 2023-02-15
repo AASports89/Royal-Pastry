@@ -1,4 +1,3 @@
-import { Font } from '@react-pdf/renderer';
 import React, { Component } from 'react';
 import CountUp from 'react-countup';
 import Calc from './Calc'

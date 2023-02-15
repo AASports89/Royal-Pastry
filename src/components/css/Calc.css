@@ -19,12 +19,12 @@
     padding-bottom: 2%;
     background-image: url("https://res.cloudinary.com/dhqsixgmo/image/upload/v1675217535/LigoLab_Template_Scratch_20_xffvsd.svg");
     background-size: cover;
-    width: 70%;
+    width: 100%;
 }
 
 #calc-input {
     padding-top: 1%;
-    width: 70%;
+    width: 100%;
 }
 
 #calc-btns {

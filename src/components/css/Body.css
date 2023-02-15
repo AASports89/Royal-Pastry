@@ -1,6 +1,9 @@
 #check-title-1 {
     text-align: center;
-    color: rgb(111, 112, 117);
+    background: -webkit-linear-gradient(rgb(58, 58, 60) 50%, rgb(206, 214, 225) 100%); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgb(58, 58, 60) 50%, rgb(206, 214, 225) 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    color: transparent;
     font-weight: bold;
     font-size: 185%;
     padding-bottom: 2.5%;
@@ -23,7 +26,7 @@
 }
 
 #last-section {
-    background: no-repeat url("https://res.cloudinary.com/dhqsixgmo/image/upload/v1675229338/LigoLab_Template_Scratch_23_wxhvbf.svg");
+    background: no-repeat url("https://res.cloudinary.com/dhqsixgmo/image/upload/v1676437160/LL_MEDIA_14_dsznwu.svg");
     background-size: cover;
     background-position: center;
     padding-top: 7.5%;
@@ -68,12 +71,8 @@
 #monitor {
     background: no-repeat url("https://res.cloudinary.com/dhqsixgmo/image/upload/v1675149590/LigoLab_Template_Scratch_4_zarkxs.svg");
     background-size: cover;
-    background-position: right;
-    padding-bottom: 7.5%;
-    padding-top: 7.5%;
-    text-align: center;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
+    background-position: center;
+
 }
 
 #award-text {
@@ -100,26 +99,23 @@
 
 #check-list-title {
     font-size: 200%;
-    color: white;
+    color: black;
     font-weight: bold;
     text-align: center;
     padding-bottom: 2%;
 }
 
 #check-list-title-1 {
-    background: -webkit-linear-gradient(rgb(148, 149, 150) 15%, rgb(10, 11, 11) 50%); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(rgb(148, 149, 150) 15%, rgb(10, 11, 11) 50%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    -webkit-background-clip: text;
-    color: transparent;
-    font-size: 180%;
+    color: black;
+    font-size: 190%;
     font-weight: bold;
     padding-bottom: 5%;
+    text-align: center;
 }
 
 #check-row {
     font-size: 165%;
     color: black;
-    text-align: left;
     padding-top: 1%;
     padding-bottom: 1%;
     font-weight: bold;
@@ -128,7 +124,6 @@
 #check-row-1 {
     font-size: 160%;
     color: black;
-    text-align: left;
     padding-top: 1%;
     padding-bottom: 1%;
     font-weight: bold;
@@ -136,6 +131,10 @@
 
 #check-col {
     padding-bottom: 2%;
+}
+
+#adaptable {
+    width: 105%;
 }
 
 #dash-text {
@@ -188,8 +187,13 @@
     text-align: center;
     border: none;
     background: transparent;
+    padding-top: 2.5%;
     padding-bottom: 2.5%;
     font-size: 300%;
+    background: -webkit-linear-gradient(rgb(58, 58, 60) 50%, rgb(206, 214, 225) 100%); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgb(58, 58, 60) 50%, rgb(206, 214, 225) 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 #h4 {

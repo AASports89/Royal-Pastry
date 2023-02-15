@@ -1,4 +1,5 @@
 import React,{useState, useEffect} from 'react';
+import CountUp from 'react-countup';
 import './css/Calc.css';
 
 function Clean_Claim_Calc() {
@@ -44,14 +45,14 @@ function Clean_Claim_Calc() {
         <div className='row justify-content-center' id="calc-main">
         <div className='col-6 justify-content-center' id="title-calc">
         <h5 id="calc-subtitle" className='card-subtitle'>
-            <ul>
-            <span id="badge-1" data-aos="zoom-in-right" className="badge">
+            <ul data-aos="flip-right">
+            <span id="badge-1" className="badge">
                 <img id="icon-ligo" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1675882601/ligo_logo_k9avxm.svg" alt="ligo icon"></img>
             </span> 
-            Enter the average volume of billing encounters and/or claims your laboratory processes montly or yearly.
+              Enter the average volume of billing encounters and/or claims your laboratory processes montly or yearly.
             </ul>
-            <ul>
-            <span id="badge-1" data-aos="zoom-in-right" className="badge">
+            <ul data-aos="flip-left">
+            <span id="badge-1" className="badge">
                 <img id="icon-ligo" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1675882601/ligo_logo_k9avxm.svg" alt="ligo icon"></img>
             </span>
                 The calculated number represents the potential revenue increase w/ the integration of LigoLab™.
@@ -64,12 +65,14 @@ function Clean_Claim_Calc() {
         <form className='form-group'>
 
           <div className='form-row-mb-5' id='calc-disp'>
-            <input className='form-control' type="text" id="result" placeholder='Rev. Op.' value={'$' + currentSum}  readOnly />   
+
+              <input className='form-control' type="text" id="result" placeholder='Revenue Opportunity' value={'$' + currentSum + ".00"}  readOnly /> 
+   
           </div>
           <div className='form-row-mb-3' id="calc-input">
-            <input className='form-control' type="text" id="num" placeholder="Enter vol..." />
+            <input className='form-control' type="text" id="num" placeholder="Enter monthly or yearly volume..." />
           </div>
-          <div className='form-row-mb-3' id="calc-btns">
+          <div className='form-row-mb-3 justify-content-center' id="calc-btns">
             <button id="calc" className='btn btn-light' onClick={Add}>Calculate</button>
             <button id="clear" className='btn btn-light' onClick={Clear}>Reset</button>
             <ol id="disclaimer">
