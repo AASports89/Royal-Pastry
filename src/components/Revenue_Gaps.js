@@ -41,7 +41,6 @@ render() {
 
     <div data-aos="slide-left" className="col-7" id='gap'>
         <div className="card border-0" id="gaps">
-            <img className="img-responsive" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1675218976/LigoLab_Template_Scratch_21_vrybla.svg" alt="gaps"></img>
         </div>
     </div>
 
@@ -70,9 +69,8 @@ render() {
             </div>
         </div>
 
-        <div className='row-mx-auto'>
             <Calc />
-        </div>
+
         
     </div>
      

@@ -42,6 +42,9 @@
 
 #gap {
     margin-bottom: 5%;
+    background: no-repeat url("https://res.cloudinary.com/dhqsixgmo/image/upload/v1675218976/LigoLab_Template_Scratch_21_vrybla.svg");
+    background-size: cover;
+    background-position: center;
 }
 
 #check-title {
@@ -68,7 +71,7 @@
 
 #stats-div {
     padding-top: 5%;
-    background: url("https://res.cloudinary.com/dhqsixgmo/image/upload/v1674818820/LigoLab_Template_Scratch_14_jwzsau.svg");
+    background: url("https://res.cloudinary.com/dhqsixgmo/image/upload/v1676418534/LL_MEDIA_12_opkblc.svg");
     background-size: cover;
     border: none;
     padding-bottom: 5%;
@@ -101,4 +104,11 @@
     background: linear-gradient(rgb(1, 116, 15) 0%, rgb(81, 225, 59) 80%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     -webkit-background-clip: text;
     color: transparent;
+}
+
+#calc-main {
+    background-image: url("");
+    background-size: 100%;
+    background-position: center;
+    padding-top: 2%;
 }
