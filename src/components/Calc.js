@@ -39,10 +39,10 @@ function Clean_Claim_Calc() {
     <div data-aos="slide-right" className='card-body'>
     
         <h1 id="calc-title" className='card-title'>
-            View Revenue Opportunity Amount  <i id="rev" class="fa-solid fa-magnifying-glass-dollar"></i>
+        <i id="ast-1" className="fa-solid fa-asterisk"></i>View Revenue Opportunity Amount  <i id="rev" class="fa-solid fa-magnifying-glass-dollar"></i>
         </h1>
         <div className='row justify-content-center' id="calc-main">
-        <div className='col-5 justify-content-center' id="title-calc">
+        <div className='col-6 justify-content-center' id="title-calc">
         <h5 id="calc-subtitle" className='card-subtitle'>
             <ul>
             <span id="badge-1" data-aos="zoom-in-right" className="badge">
@@ -72,12 +72,11 @@ function Clean_Claim_Calc() {
           <div className='form-row-mb-3' id="calc-btns">
             <button id="calc" className='btn btn-light' onClick={Add}>Calculate</button>
             <button id="clear" className='btn btn-light' onClick={Clear}>Reset</button>
+            <ol id="disclaimer">
+                <i id="ast-2" className="fa-solid fa-asterisk"></i>Estimates are based on average statistics & automated calculations, in no way are exact, precise, or guaranteed.
+            </ol>
           </div>
-          <div className='col-12'>
-              <ol id="disclaimer">
-                <i id="ast" className="fa-solid fa-asterisk"></i>Estimates are based on average statistics & automated calculations, in no way are exact, precise, or guaranteed.
-              </ol>
-          </div>
+      
         </form>
       </div>
      </div>
