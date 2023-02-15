@@ -6,7 +6,6 @@
     background: linear-gradient(rgb(2, 62, 204) 0%, rgb(86, 154, 250) 80%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     -webkit-background-clip: text;
     color: transparent;
-    padding-bottom: 1%;
     padding-top: 2%;
 }
 
@@ -19,12 +18,12 @@
     padding-bottom: 2%;
     background-image: url("https://res.cloudinary.com/dhqsixgmo/image/upload/v1675217535/LigoLab_Template_Scratch_20_xffvsd.svg");
     background-size: cover;
-    width: 40%;
+    width: 70%;
 }
 
 #calc-input {
     padding-top: 1%;
-    width: 40%;
+    width: 70%;
 }
 
 #calc-btns {
@@ -44,6 +43,7 @@
     background: linear-gradient(rgb(138, 139, 140) 0%, rgb(222, 224, 225) 80%);
     transition: all 0.3s ease-in-out;
     color: black;
+    border: 1px black solid;
 }
 
 #clear {
@@ -58,10 +58,12 @@
     background: linear-gradient(rgb(173, 1, 1) 0%, rgb(247, 122, 122) 80%);
     transition: all 0.3s ease-in-out;
     color: black;
+    border: 1px black solid;
 }
 
 #disclaimer {
     font-size: 75%;
+    font-weight: bold
 }
 
 #rev {
@@ -82,7 +84,8 @@
 }
 
 #calc-main {
-    background-image: url("https://res.cloudinary.com/dhqsixgmo/image/upload/v1676416836/LL_MEDIA_11_jakypb.svg");
+    background-image: url("https://res.cloudinary.com/dhqsixgmo/image/upload/v1676418534/LL_MEDIA_12_opkblc.svg");
     background-size: cover;
     background-position: center;
+    padding-top: 2%;
 }
