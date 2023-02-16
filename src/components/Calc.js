@@ -1,5 +1,4 @@
 import React,{useState, useEffect} from 'react';
-import CountUp from 'react-countup';
 import './css/Calc.css';
 
 function Clean_Claim_Calc() {
@@ -19,7 +18,7 @@ function Clean_Claim_Calc() {
     e.preventDefault();
     if(clear) setClear(false);
     let currentNum=document.querySelector('#num').value
-    if(currentNum=='')
+    if(currentNum==='')
     return;
     let sum= (currentNum)*41;
     setCurrentSum(sum);
@@ -43,7 +42,7 @@ function Clean_Claim_Calc() {
         <i id="ast-1" className="fa-solid fa-asterisk"></i>View Revenue Opportunity Amount  <i id="rev" class="fa-solid fa-magnifying-glass-dollar"></i>
         </h1>
       <div className='form-row justify-content-center'>
-        <div className='col-6 justify-content-center' id="title-calc">
+        <div className='col-7 justify-content-center' id="title-calc">
         <h5 id="calc-subtitle" className='card-subtitle'>
             <ul data-aos="flip-right">
             <span id="badge-1" className="badge">
@@ -55,7 +54,7 @@ function Clean_Claim_Calc() {
             <span id="badge-1" className="badge">
                 <img id="icon-ligo" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1675882601/ligo_logo_k9avxm.svg" alt="ligo icon"></img>
             </span>
-                The calculated number represents the potential revenue increase w/ the integration of LigoLab™.
+                The calculated amount represents the potential revenue increase from the integration of LigoLab™.
             </ul>
             
         </h5>
@@ -74,7 +73,7 @@ function Clean_Claim_Calc() {
           </div>
           <div className='form-row-mb-3 justify-content-center' id="calc-btns">
             <button id="calc" className='btn btn-light' onClick={Add}>Calculate</button>
-            <button id="clear" className='btn btn-light' onClick={Clear}>Reset</button>
+            <button id="clear" className='btn btn-light' onClick={Clear}>Clear</button>
             <ol id="disclaimer">
                 <i id="ast-2" className="fa-solid fa-asterisk"></i>Estimates are based on average statistics & automated calculations, in no way are exact, precise, or guaranteed.
             </ol>
