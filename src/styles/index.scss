@@ -7,12 +7,12 @@
     height: 100vh;
 }
 
-.flex {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+// .flex {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+// }
 
 #navbar {
     height: 200px;
@@ -36,16 +36,15 @@
     margin-top: 2.5%;
 }
 
-#main-logo {
-   width: 500px;
-   margin: -20%;
-   padding: -20%;
-}
+// #main-logo {
+//    width: 500px;
+//    margin: -20%;
+//    padding: -20%;
+// }
 
 #nav-link {
-    padding: 3%;
-    font-size: 130%;
-    margin-right: -5%;
+   font-weight: bold;
+    font-size: 125%;
     background: -webkit-linear-gradient(rgb(58, 58, 60) 50%, rgb(206, 214, 225) 100%); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(rgb(58, 58, 60) 50%, rgb(206, 214, 225) 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     -webkit-background-clip: text;
@@ -76,6 +75,7 @@
     margin-bottom: 2.5%;
     font-weight: bold;
     font-size: 175%;
+    width: 25%;
 }
 
 #submit-top:hover {

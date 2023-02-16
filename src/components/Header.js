@@ -27,7 +27,7 @@ export default function Header() {
 		<div>
 			<nav data-aos="slide-down"
 				id="navbar"
-				className="container-fluid navbar navbar-expand-lg navbar-light bg-light">
+				className="container-fluid navbar">
 				<div className="container" id="my-background">
 					<a id="main-logo-link"
 						href="www.ligolab.com"
@@ -39,10 +39,11 @@ export default function Header() {
 							});
 						}}>
 
-					<img id="main-logo" className="img-responsive" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1675217538/LigoLab_Template_Scratch_10_voialu.svg" alt="LigoLab™ Information System"></img>
-
+						<div className="card" id="main-logo">
+							<img src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1676542984/layer1_mfbcjc.svg" className="card-img-top" alt="ligolab"></img>
+						</div>
 					</a>
-						<div className="navbar-nav">
+						<div className="navbar-nav" data-aos="slide-down">
 							<a onClick={() => SmoothScrollTo("contact-form")} href="#contact-form" id="nav-link" className="btn-style nav-item nav-link">SCHEDULE FREE CONSULTATION</a>
 							<a onClick={() => SmoothScrollTo("revenue_gaps")} href="#revenue_gaps" id="nav-link" className="btn-style nav-item nav-link">A SINGLE-SOURCE OF TRUTH</a>
 							<a onClick={() => SmoothScrollTo("carousel")} href="#carousel" id="nav-link" className="btn-style nav-item nav-link">LIGOLAB™ PARTNERSHIPS</a>

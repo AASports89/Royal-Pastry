@@ -180,7 +180,7 @@
     border: none;
     background: transparent;
     padding-bottom: 2%;
-    font-size: 250%;
+    font-size: 300%;
 }
 
 #h3 {
@@ -189,7 +189,7 @@
     background: transparent;
     padding-top: 2.5%;
     padding-bottom: 2.5%;
-    font-size: 300%;
+    font-size: 350%;
     background: -webkit-linear-gradient(rgb(58, 58, 60) 50%, rgb(206, 214, 225) 100%); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(rgb(58, 58, 60) 50%, rgb(206, 214, 225) 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     -webkit-background-clip: text;
