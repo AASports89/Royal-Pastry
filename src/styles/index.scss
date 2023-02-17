@@ -75,7 +75,6 @@
     margin-bottom: 2.5%;
     font-weight: bold;
     font-size: 175%;
-    width: 25%;
 }
 
 #submit-top:hover {
@@ -138,13 +137,13 @@
 }
 
 #qr-card {
-    background: no-repeat url("https://res.cloudinary.com/dhqsixgmo/image/upload/v1675399884/LigoLab_Template_Scratch_13_quicxw.svg");
-    background-size: cover;
-    background-position: center;
+    border: none;
 }
 
-#qr-card-1 {
-    padding: 25%;
-    background: none;
+#qr {
+    width: 125%;
+}
+
+#cap {
     border: none;
 }

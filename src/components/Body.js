@@ -97,8 +97,13 @@ render() {
                 <a id="submit-4" class="btn btn-primary" href="#contact-form">Schedule Free Consultation</a>
             </div>
         </div>
-
-        <div data-aos="slide-left" class="col-7" id="dashboard"></div>
+        <div className='col-7 flex' id="dashboard">
+        <div data-aos="slide-left" class="card bg-transparent" id="tablet">
+            <img src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1676605684/dash_falhfk.svg" class="card-img" alt="tablet"></img>
+            <div class="card-img-overlay">
+        </div>
+        </div>
+        </div>
     </div>
 </div>
 

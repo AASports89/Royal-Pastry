@@ -129,8 +129,8 @@ render() {
         </div>
     </div>
 
-<div id="captcha" className="col-10 justify-content-center">
-
+<div id="captcha" className="form-row justify-content-center">
+<div class="card bg-transparent" id="cap">
 <div id="canvas" className="form-row justify-content-center">
         <LoadCanvasTemplate />
     </div>
@@ -147,13 +147,19 @@ render() {
                     </button>
             </div>
 </div>
+<div className="form-row justify-content-center">
+<div data-aos="slide-right" class="card bg-transparent" id="qr-card">
+            <img id="qr" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1675399884/LigoLab_Template_Scratch_13_quicxw.svg" class="card-img" alt="tablet"></img>
+            <div class="card-img-overlay">
+        </div>
+        </div>
+</div>
+</div>
 
 </form>
 </div>
 </div>
-<div data-aos="slide-right" id="qr-card" className="col-5 justify-content-center">
-    <div id="qr-card-1" className="card"></div>
-</div>
+
 </div>
   )}}
 

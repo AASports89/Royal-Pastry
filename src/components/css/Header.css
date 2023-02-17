@@ -1,7 +1,10 @@
 #main-logo {
     border: none;
-    width: 70%;
     background: transparent;
+}
+
+#logo {
+    width: 150%;
 }
 
 #main-logo-link {

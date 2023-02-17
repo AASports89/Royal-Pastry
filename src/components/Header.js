@@ -40,7 +40,7 @@ export default function Header() {
 						}}>
 
 						<div className="card" id="main-logo">
-							<img src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1676542984/layer1_mfbcjc.svg" className="card-img-top" alt="ligolab"></img>
+							<img id="logo" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1676583885/ll_full_logo_eqkc7v.svg" className="card-img-top" alt="ligolab"></img>
 						</div>
 					</a>
 						<div className="navbar-nav" data-aos="slide-down">

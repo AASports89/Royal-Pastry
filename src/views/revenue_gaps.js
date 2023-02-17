@@ -1,5 +1,6 @@
 import React from "react";
 import Revenue_Gaps from "../components/Revenue_Gaps";
+import Calc from "../components/Calc";
 
 export default function Revenue_gaps() {
 
@@ -7,11 +8,12 @@ export default function Revenue_gaps() {
 			<React.Fragment>
 				
 				<div id="my-education" className="container-fluid bg-light mt-5">
-
 					<Revenue_Gaps />
 				
-				</div>
 			
+				<Calc />
+				
+				</div>
 			</React.Fragment>
 		);
 }

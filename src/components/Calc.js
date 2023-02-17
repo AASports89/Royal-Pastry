@@ -35,20 +35,27 @@ function Clean_Claim_Calc() {
   }
 
   return (
-
-    <div data-aos="slide-right" className='container-fluid' id='calc-main'>
     
-        <h1 id="calc-title" className='card-title'>
-        <i id="ast-1" className="fa-solid fa-asterisk"></i>View Revenue Opportunity Amount  <i id="rev" class="fa-solid fa-magnifying-glass-dollar"></i>
-        </h1>
+  <div className='form-row justify-content-center'>
+     <h1 id="calc-title">
+        <i id="ast-1" className="fa-solid fa-asterisk"></i>Check Your Lab's Revenue Opportunity  <i id="rev" class="fa-solid fa-magnifying-glass-dollar"></i>
+      </h1>
+
+    <div data-aos="slide-right" className='form-row justify-content-center' id='calc-main'>
+     
+  <div class="card bg-transparent" id="tablet">
+  
+  <img id="tab-img" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1676602943/tablet_g7rzbs.svg" class="card-img" alt="tablet"></img>
+  <div class="card-img-overlay">
+  
       <div className='form-row justify-content-center'>
-        <div className='col-7 justify-content-center' id="title-calc">
+        <div className='col-9 justify-content-center' id="title-calc">
         <h5 id="calc-subtitle" className='card-subtitle'>
             <ul data-aos="flip-right">
             <span id="badge-1" className="badge">
                 <img id="icon-ligo" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1675882601/ligo_logo_k9avxm.svg" alt="ligo icon"></img>
             </span> 
-              Enter the average volume of billing encounters and/or claims your laboratory processes montly or yearly.
+              Enter the average volume of billing encounters your laboratory typically processes montly or yearly.
             </ul>
             <ul data-aos="flip-left">
             <span id="badge-1" className="badge">
@@ -60,12 +67,15 @@ function Clean_Claim_Calc() {
         </h5>
       </div>
      
-     <div className='col-3 justify-content-center' id="calc-form">
+     <div className='col-4 justify-content-center' id="calc-form">
         <form className='form-group'>
 
           <div className='form-row-mb-5' id='calc-disp'>
 
               <input className='form-control' type="text" id="result" placeholder='Revenue Opportunity' value={'$' + currentSum + ".00"}  readOnly /> 
+              <ol id="disclaimer">
+                <i id="ast-2" className="fa-solid fa-asterisk"></i>Estimates are based on statistical analysis & automated calculations, therefore in no way are exact, precise, or guaranteed.
+            </ol>
    
           </div>
           <div className='form-row-mb-3' id="calc-input">
@@ -73,16 +83,16 @@ function Clean_Claim_Calc() {
           </div>
           <div className='form-row-mb-3 justify-content-center' id="calc-btns">
             <button id="calc" className='btn btn-light' onClick={Add}>Calculate</button>
-            <button id="clear" className='btn btn-light' onClick={Clear}>Clear</button>
-            <ol id="disclaimer">
-                <i id="ast-2" className="fa-solid fa-asterisk"></i>Estimates are based on average statistics & automated calculations, in no way are exact, precise, or guaranteed.
-            </ol>
+            <button id="clear" className='btn btn-light' onClick={Clear}>Reset</button>
+          
           </div>
       
         </form>
       </div>
      </div>
-       
+  </div>
+</div>
+  </div>
     </div>
   );
 }

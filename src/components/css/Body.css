@@ -60,12 +60,8 @@
 }
 
 #dashboard {
-    background: no-repeat url("https://res.cloudinary.com/dhqsixgmo/image/upload/v1675122468/LigoLab_Template_Scratch_17_zbobqm.svg");
-    background-size: cover;
-    background-position: center;
     border-radius: 0.75em;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 2%;
 }
 
 #monitor {
