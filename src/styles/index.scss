@@ -14,15 +14,14 @@
 //     align-items: center;
 // }
 
-#navbar {
-    height: 200px;
-    justify-content: center;
-    text-align: center;
-    color: black;
-    font-weight: bold;
-    background: no-repeat url("https://res.cloudinary.com/dhqsixgmo/image/upload/v1675308366/LigoLab_Template_Scratch_24_u9qhnu.svg");
-    background-size: cover;
-}
+// #navbar {
+//     height: 200px;
+//     text-align: center;
+//     color: black;
+//     font-weight: bold;
+//     background: no-repeat url("https://res.cloudinary.com/dhqsixgmo/image/upload/v1675308366/LigoLab_Template_Scratch_24_u9qhnu.svg");
+//     background-size: cover;
+// }
 
 #main-container {
     background: no-repeat url("https://res.cloudinary.com/dhqsixgmo/image/upload/v1674811212/LigoLab_Template_Scratch_9_xwrhr4.svg");
@@ -36,15 +35,9 @@
     margin-top: 2.5%;
 }
 
-// #main-logo {
-//    width: 500px;
-//    margin: -20%;
-//    padding: -20%;
-// }
-
 #nav-link {
    font-weight: bold;
-    font-size: 125%;
+    font-size: 150%;
     background: -webkit-linear-gradient(rgb(58, 58, 60) 50%, rgb(206, 214, 225) 100%); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(rgb(58, 58, 60) 50%, rgb(206, 214, 225) 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     -webkit-background-clip: text;

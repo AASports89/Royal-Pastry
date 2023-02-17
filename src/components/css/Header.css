@@ -1,12 +1,30 @@
+#navbar {
+    padding-bottom: 5%;
+}
+
 #main-logo {
     border: none;
     background: transparent;
+
 }
 
 #logo {
     width: 150%;
 }
 
-#main-logo-link {
-    margin-bottom: 5%;
+#nav-cont {
+    width: 100%;
+}
+
+#nav-links {
+    display: inline;
+    width: 100%;
+    float: right;
+}
+
+#nav-link {
+    display: inline;
+    float: right;
+    margin-left: 2%;
+    margin-right: 2%;
 }

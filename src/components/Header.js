@@ -40,15 +40,18 @@ export default function Header() {
 						}}>
 
 						<div className="card" id="main-logo">
-							<img id="logo" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1676583885/ll_full_logo_eqkc7v.svg" className="card-img-top" alt="ligolab"></img>
+							<img id="logo" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1676607812/ll_full_logo_ddwafb.svg" className="card-img-top" alt="ligolab"></img>
 						</div>
 					</a>
-						<div className="navbar-nav" data-aos="slide-down">
-							<a onClick={() => SmoothScrollTo("contact-form")} href="#contact-form" id="nav-link" className="btn-style nav-item nav-link">SCHEDULE FREE CONSULTATION</a>
-							<a onClick={() => SmoothScrollTo("revenue_gaps")} href="#revenue_gaps" id="nav-link" className="btn-style nav-item nav-link">A SINGLE-SOURCE OF TRUTH</a>
-							<a onClick={() => SmoothScrollTo("carousel")} href="#carousel" id="nav-link" className="btn-style nav-item nav-link">LIGOLAB™ PARTNERSHIPS</a>
-						</div>
+						
 					</div>
+			</nav>
+			<nav data-aos="slide-down" class="navbar navbar-expand-lg navbar-light bg-light" id="nav-cont">
+				<div className="navbar-nav" data-aos="slide-down" id="nav-links">
+					<a onClick={() => SmoothScrollTo("contact-form")} href="#contact-form" id="nav-link" className="btn-style nav-item nav-link">SCHEDULE FREE CONSULTATION</a>
+					<a onClick={() => SmoothScrollTo("revenue_gaps")} href="#revenue_gaps" id="nav-link" className="btn-style nav-item nav-link">A SINGLE-SOURCE OF TRUTH</a>
+					<a onClick={() => SmoothScrollTo("carousel")} href="#carousel" id="nav-link" className="btn-style nav-item nav-link">LIGOLAB™ PARTNERSHIPS</a>
+				</div>
 			</nav>
 			<div id="nav-divider"></div>
 		</div>
