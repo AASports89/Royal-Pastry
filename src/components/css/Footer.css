@@ -1,13 +1,16 @@
 #footer {
     text-align: center;
     height: 200px;
-
 }
 
 #footer-logo {
     width: 15%;
     margin-top: 1%;
     margin-bottom: 1%;
+}
+
+#icon-ligo {
+    width: 10%;
 }
 
 #footer-title {
@@ -61,6 +64,7 @@
 
 #badge-1 {
     background: transparent;
+    width: 2.5%;
 }
 
 #rcm {

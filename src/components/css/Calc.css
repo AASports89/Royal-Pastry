@@ -30,8 +30,9 @@
 }
 
 #calc-btns {
-    padding-top: 28%;
+    padding-top: 83.5%;
     padding-bottom: 1%;
+    padding-left: 30%;
 }
 
 #calc {
@@ -99,9 +100,21 @@
 
 #tablet {
     border: none;
-    background: none;
+    background: no-repeat url("https://res.cloudinary.com/dhqsixgmo/image/upload/v1678363158/layer6_ycshda.svg");
+    position: center;
+    padding-bottom: 30%;
 }
 
-#tab-img {
-    width:max-content;
+/* #tab-img {
+    width: 75%;
+    margin-left: 12.5%;
+} */
+
+#icon-ligo-1 {
+    width: 75%;
+}
+
+#badge-2 {
+    background: none;
+  width: 5%;
 }

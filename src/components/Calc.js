@@ -45,23 +45,22 @@ function Clean_Claim_Calc() {
      
   <div class="card bg-transparent" id="tablet">
   
-  <img id="tab-img" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1676602943/tablet_g7rzbs.svg" class="card-img" alt="tablet"></img>
-  <div class="card-img-overlay">
+  
   
       <div className='form-row justify-content-center'>
         <div className='col-9 justify-content-center' id="title-calc">
         <h5 id="calc-subtitle" className='card-subtitle'>
             <ul data-aos="flip-right">
-            <span id="badge-1" className="badge">
-                <img id="icon-ligo" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1675882601/ligo_logo_k9avxm.svg" alt="ligo icon"></img>
+            <span id="badge-2" className="badge">
+                <img id="icon-ligo-1" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1678357113/FLASK_rzukaf.svg" alt="ligo icon"></img>
             </span> 
-              Enter the average volume of billing encounters your laboratory typically processes montly or yearly.
+              <span id="text">Enter the average volume of billing encounters your laboratory typically processes montly or yearly.</span>
             </ul>
             <ul data-aos="flip-left">
-            <span id="badge-1" className="badge">
-                <img id="icon-ligo" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1675882601/ligo_logo_k9avxm.svg" alt="ligo icon"></img>
+            <span id="badge-2" className="badge">
+                <img id="icon-ligo-1" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1678357113/FLASK_rzukaf.svg" alt="ligo icon"></img>
             </span>
-                The calculated amount represents the potential revenue increase from the integration of LigoLab™.
+                <span id="text">The calculated amount represents the potential revenue increase from the integration of LigoLab™.</span>
             </ul>
             
         </h5>
@@ -93,7 +92,6 @@ function Clean_Claim_Calc() {
   </div>
 </div>
   </div>
-    </div>
   );
 }
 

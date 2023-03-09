@@ -40,7 +40,7 @@ export default function Header() {
 						}}>
 
 						<div className="card" id="main-logo">
-							<img id="logo" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1676607812/ll_full_logo_ddwafb.svg" className="card-img-top" alt="ligolab"></img>
+							<img id="logo" className="img-fluid" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1678360974/full_logo_h2dfq7.svg" alt="ligolab"></img>
 						</div>
 					</a>
 						
