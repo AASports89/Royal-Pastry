@@ -74,7 +74,7 @@ render() {
         </div>
     </div>
 </div>
-
+<div className="container" id="divider-1"></div>
 <div className="container-fluid" id="dash-cont">
     <h1 cclassName="card-header" id="h3">Real-Time Data Analytics</h1>
     <div className="row justify-content-md-center">
@@ -99,7 +99,7 @@ render() {
         </div>
         <div className='col-7 flex' id="dashboard">
         <div data-aos="slide-left" class="card bg-transparent" id="dashboard-img">
-            <img src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1676605684/dash_falhfk.svg" class="card-img" alt="tablet"></img>
+            <img src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1678392306/RCM_DASH_drfv3w.svg" class="card-img" alt="tablet"></img>
             <div class="card-img-overlay">
         </div>
         </div>

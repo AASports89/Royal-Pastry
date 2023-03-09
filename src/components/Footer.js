@@ -16,7 +16,7 @@ export default function Footer() {
 								href="https://www.ligolab.com"
 								target="_blank"
 								rel="noopener noreferrer">
-								<img data-aos="zoom-in" id="footer-logo" className="img-fluid" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1678360974/full_logo_h2dfq7.svg" alt="ligolab.com" />
+								<img data-aos="zoom-in" id="footer-logo" className="img-fluid" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1678393986/full_logo_2_riwvlb.svg" alt="ligolab.com" />
 							</a>
 
 							<div className="row justify-content-md-center">

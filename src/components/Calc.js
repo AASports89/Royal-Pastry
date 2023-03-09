@@ -35,15 +35,15 @@ function Clean_Claim_Calc() {
   }
 
   return (
-    
-  <div className='form-row justify-content-center'>
-     <h1 id="calc-title">
+    <div className='container-fluid'>
+        <h1 id="calc-title">
         <i id="ast-1" className="fa-solid fa-asterisk"></i>Check Your Lab's Revenue Opportunity  <i id="rev" class="fa-solid fa-magnifying-glass-dollar"></i>
       </h1>
+  <div className='form-row justify-content-center' id="tablet">
 
     <div data-aos="slide-right" className='form-row justify-content-center' id='calc-main'>
      
-  <div class="card bg-transparent" id="tablet">
+  <div class="card bg-transparent" id="tablet_1">
   
       <div className='form-row justify-content-center'>
         <div className='col-9 justify-content-center' id="title-calc">
@@ -89,6 +89,7 @@ function Clean_Claim_Calc() {
      </div>
   </div>
 </div>
+  </div>
   </div>
   );
 }

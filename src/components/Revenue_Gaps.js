@@ -12,8 +12,6 @@ render() {
 
     <h1 className="card-header" id="h1">Identify Revenue Stream Gaps & Opportunities</h1>
 
-<div className="container" id="divider-1"></div>
-
 <div className="row justify-content-center">
     <div data-aos="slide-right" className="col-5">
       
@@ -71,8 +69,6 @@ render() {
     </div>
 </div>
 </div>
-
-     <div className="container" id="divider-1"></div>
 
 </div>
 
