@@ -98,7 +98,7 @@ render() {
             </div>
         </div>
         <div className='col-7 flex' id="dashboard">
-        <div data-aos="slide-left" class="card bg-transparent" id="tablet">
+        <div data-aos="slide-left" class="card bg-transparent" id="dashboard-img">
             <img src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1676605684/dash_falhfk.svg" class="card-img" alt="tablet"></img>
             <div class="card-img-overlay">
         </div>

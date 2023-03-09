@@ -45,18 +45,16 @@ function Clean_Claim_Calc() {
      
   <div class="card bg-transparent" id="tablet">
   
-  
-  
       <div className='form-row justify-content-center'>
         <div className='col-9 justify-content-center' id="title-calc">
         <h5 id="calc-subtitle" className='card-subtitle'>
-            <ul data-aos="flip-right">
+            <ul data-aos="flip-right" id="ul-1">
             <span id="badge-2" className="badge">
                 <img id="icon-ligo-1" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1678357113/FLASK_rzukaf.svg" alt="ligo icon"></img>
             </span> 
               <span id="text">Enter the average volume of billing encounters your laboratory typically processes montly or yearly.</span>
             </ul>
-            <ul data-aos="flip-left">
+            <ul data-aos="flip-left" id="ul-2">
             <span id="badge-2" className="badge">
                 <img id="icon-ligo-1" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1678357113/FLASK_rzukaf.svg" alt="ligo icon"></img>
             </span>
