@@ -40,11 +40,13 @@ div {
     background-size: cover;
     padding-top: 2.5%;
     border-radius: 0.75em;
+    width: 100%;
 }
 
 #main-header {
     height:fit-content;
     margin-top: 2.5%;
+    width: max-content;
 }
 
 #nav-link {
@@ -94,12 +96,6 @@ div {
     background: none;
 }
 
-#revenue_gaps {
-    background: url("https://res.cloudinary.com/dhqsixgmo/image/upload/v1675072418/LigoLab_Template_Scratch_2_rsgist.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 #footer-div {
     background: linear-gradient(rgb(2, 62, 204) 0%, rgb(86, 154, 250) 80%);
     height: 0.15em;
@@ -139,6 +135,7 @@ div {
 #main {
     border: none;
     background: transparent;
+    width: fit-content;
 }
 
 #qr-card {

@@ -22,8 +22,8 @@ export default function Header_nav() {
 
     return (
 		<div>
-			<div className="header justify-content-center" id="main-header">
-			<div className="top-container flex justify-content-center">
+	
+			<div className="container justify-content-center">
 	
 				<h5 data-aos="zoom-in" id="h5"  className="card-title">Discover the Power of Implementing Innovation & Automation:</h5>
                 <h4 data-aos="zoom-in" className="card-title" id="m-sub"> A Single-Source of Truth For Laboratory Operational Success</h4>
@@ -37,8 +37,6 @@ export default function Header_nav() {
 				</div>
 				
 			</div>
-		</div>
-		
 		</div>
 	);
 }

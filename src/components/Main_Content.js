@@ -29,9 +29,8 @@ render() {
 
   return (
 
-    <div className="container-fluid justify-content-center">
-
-        <div data-aos="slide-right" className="col-12 justify-content-center" id="main">
+    <div className="col-12 justify-content-center">
+<div data-aos="slide-right" className="row justify-content-center" id="main">
                 <div className="card-body">
                   <h6 className="card-subtitle" id="subtitle">How much revenue is your laboratory leaving on the table?</h6>
                 </div>
@@ -58,7 +57,7 @@ render() {
             </div>
         </div>
 
-<div className="col-3 justify-content-center">
+<div className="col-12 justify-content-center">
     <div className="card" id="form"></div>
 </div>
 

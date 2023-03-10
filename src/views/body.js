@@ -5,7 +5,7 @@ export default function Body_View() {
 
     return (
         <React.Fragment>
-            <div id="my-education" className="container-fluid bg-light mt-5">
+            <div id="my-education" className="container bg-light mt-5">
 
                     <Body />
                     

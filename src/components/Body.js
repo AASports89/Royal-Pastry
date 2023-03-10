@@ -6,9 +6,8 @@ class Body extends Component {
 render() {
 
   return (
-<div className='container-fluid' id='section'>
-
-<div className="component-container" id="last-section">
+<div className='container'>
+<div className="container" id="last-section">
     <h1 className="card-header" id="h2">Increase Your Workflow Efficiency Without Sacrificing Precision & Accuracy</h1>
     <div className="row justify-content-md-center">
         <h5 className="card-title" id="check-title-1">Implementing a configurable platform combined with automation means your billing workflow is monitored "24/7 & 365-days/year":</h5>
@@ -43,7 +42,7 @@ render() {
 
 </div>
 
-<div className="container-fluid" id="monitor">
+<div className="container" id="monitor">
 
     <h1 className="card-header" id="h3">Customizable, Scalable & Adaptable RCM Solutions</h1>
 
@@ -75,7 +74,7 @@ render() {
     </div>
 </div>
 <div className="container" id="divider-1"></div>
-<div className="container-fluid" id="dash-cont">
+<div className="container" id="dash-cont">
     <h1 cclassName="card-header" id="h3">Real-Time Data Analytics</h1>
     <div className="row justify-content-md-center">
         <div data-aos="zoom-in" className="row justify-content-md-center">
@@ -97,7 +96,7 @@ render() {
                 <a id="submit-4" class="btn btn-primary" href="#contact-form">Schedule Free Consultation</a>
             </div>
         </div>
-        <div className='col-7 flex' id="dashboard">
+        <div className='col-7' id="dashboard">
         <div data-aos="slide-left" class="card bg-transparent" id="dashboard-img">
             <img src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1678392306/RCM_DASH_drfv3w.svg" class="card-img" alt="tablet"></img>
             <div class="card-img-overlay">
