@@ -29,43 +29,38 @@ render() {
 
   return (
 
-    <div className="col-12 justify-content-center">
-<div data-aos="slide-right" className="row justify-content-center" id="main">
-                <div className="card-body">
-                  <h6 className="card-subtitle" id="subtitle">How much revenue is your laboratory leaving on the table?</h6>
-                </div>
-
-        <div className="form-row justify-content-center">
-                
-                    <p className="card-text" id="sub-title-1">
-                        <ul id="line-1" data-aos="flip-left">
-                        <span id="badge" data-aos="zoom-in-left" className="badge">
-                            <img id="icon-ligo" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1678357113/FLASK_rzukaf.svg" alt="ligo icon"></img>
-                        </span>
-                        Schedule a free consultation to learn how you can integrate custom revenue cycle management, automation & executive-level analytics to secure sustained long-term profitability & growth.
-                        </ul>
-                       
-
-                        <ul id="line-2" data-aos="flip-right">
-                        <span id="badge" data-aos="zoom-in-right" className="badge">
-                            <img id="icon-ligo" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1678357113/FLASK_rzukaf.svg" alt="ligo icon"></img>
-                        </span>
-                        Take advantage of this opportunity to sit down with leading industry professionals responsible for setting the bar, when it comes to laboratory operational success!
-                        </ul>
-                    </p>
-                
-            </div>
+<div className="col-12 justify-content-center">
+    <div data-aos="slide-right" className="row justify-content-center" id="main">
+        <div className="card-body">
+            <h6 className="card-subtitle" id="subtitle">How much revenue is your laboratory leaving on the table?</h6>
         </div>
 
-<div className="col-12 justify-content-center">
-    <div className="card" id="form"></div>
+        <div className="col-12 justify-content-center">
+            <p className="card-text" id="sub-title-1">
+                <ul id="line-1" data-aos="flip-left">
+                    <span id="badge" data-aos="zoom-in-left" className="badge">
+                        <img id="icon-ligo" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1678594129/FULL_LOGO_LIGOLAB_zzgwms.svg" alt="ligo icon"></img>
+                    </span>
+                        Schedule a free consultation to learn how you can integrate custom revenue cycle management, automation & executive-level analytics to secure sustained long-term profitability & growth.
+                </ul>
+
+                <ul id="line-2" data-aos="flip-right">
+                    <span id="badge" data-aos="zoom-in-right" className="badge">
+                        <img id="icon-ligo" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1678594129/FULL_LOGO_LIGOLAB_zzgwms.svg" alt="ligo icon"></img>
+                    </span>
+                        Take advantage of this opportunity to sit down with leading industry professionals responsible for setting the bar, when it comes to laboratory operational success!
+                </ul>
+            </p>    
+        </div>
 </div>
 
-    <div className="row justify-content-center">
-        <div data-aos="fade-up" data-aos-duration="3000" className="col-6 justify-content-center" id="contact-form">
+<div className="card" id="form"></div>
+
+<div className=" justify-content-center" data-aos="fade-up" data-aos-duration="3000" id="contact-form">
+    
             <h2 className="card-title" id="title-m">Schedule A Free RCM Consultation Today!</h2>
 
-        <form className="wow pulse" action="https://formspree.io/f/maykpnjz" method="POST">
+    <form className="wow pulse" action="https://formspree.io/f/maykpnjz" method="POST">
 
     <div className="row justify-content-center">
         <div className="col-6-mx-auto">
@@ -114,7 +109,7 @@ render() {
                     <option>Regulatory Compliance</option>
                     <option>Productivity/Metrics Analytics</option>
                     <option>Start-Up Consultation</option>
-                    <option>Other: (lease explain below)</option>
+                    <option>Other: (please explain below)</option>
                 </select>
         </div>
 
@@ -157,8 +152,6 @@ render() {
 
 </form>
 </div>
-</div>
-
 </div>
   )}}
 

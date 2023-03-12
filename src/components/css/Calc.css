@@ -39,7 +39,7 @@
 
 #calc {
     background: linear-gradient(rgb(13, 131, 4) 0%, rgb(162, 245, 161) 80%);
-    font-size: 115%;
+    font-size: 150%;
     color: whitesmoke;
     margin-right: 10%;
     width: 35%;
@@ -54,7 +54,7 @@
 
 #clear {
     background: linear-gradient(rgb(138, 139, 140) 0%, rgb(222, 224, 225) 80%);
-    font-size: 115%;
+    font-size: 150%;
     color: whitesmoke;
 }
 

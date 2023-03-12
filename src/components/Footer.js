@@ -23,7 +23,7 @@ export default function Footer() {
 
 								<h5 data-aos="flip-right" id="footer-logo-sub">
 									<span id="badge-1" data-aos="zoom-in-right" className="badge">
-                            			<img id="icon-ligo" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1678357113/FLASK_rzukaf.svg" alt="ligo icon"></img>
+                            			<img id="icon-ligo" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1678594129/FULL_LOGO_LIGOLAB_zzgwms.svg" alt="ligo icon"></img>
                         			</span>
 									<a id="lis" href="https://www.ligolab.com/post/best-lis-laboratory-information-system-software-management">Laboratory Information System (LIS)</a>
 								</h5>
@@ -31,7 +31,7 @@ export default function Footer() {
 							<div className="row justify-content-md-center">
 								<h5 data-aos="flip-left" id="footer-logo-sub">
 									<span id="badge-1" data-aos="zoom-in-right" className="badge">
-                            			<img id="icon-ligo" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1678357113/FLASK_rzukaf.svg" alt="ligo icon"></img>
+                            			<img id="icon-ligo" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1678594129/FULL_LOGO_LIGOLAB_zzgwms.svg" alt="ligo icon"></img>
                         			</span>
 									<a id="rcm" href="https://wwww.ligolab.com/solutions/revenue-cycle-management">Revenue Cycle Management (RCM)</a>
 								</h5>
