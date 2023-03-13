@@ -7,18 +7,18 @@
     background: transparent;
 }
 
-#logo {
-    width: 100%;
+#main-logo-link {
+    margin-bottom: 7.5%;
 }
 
 #nav-cont {
     width: 100%;
-    padding-top: 2.5%;
 }
 
 #nav-links {
     justify-content: center;
     width: 100%;
+    padding-top: 7.5%;
 }
 
 #nav-link {
