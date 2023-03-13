@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/RCM-consultation/static/css/main.4a16255d.css",
+    "main.js": "/RCM-consultation/static/js/main.a4a88688.js",
+    "index.html": "/RCM-consultation/index.html",
+    "main.4a16255d.css.map": "/RCM-consultation/static/css/main.4a16255d.css.map",
+    "main.a4a88688.js.map": "/RCM-consultation/static/js/main.a4a88688.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a16255d.css",
+    "static/js/main.a4a88688.js"
+  ]
+}

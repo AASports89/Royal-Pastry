@@ -5,21 +5,20 @@
 #main-logo {
     border: none;
     background: transparent;
-
 }
 
 #logo {
-    width: 75%;
+    width: 100%;
 }
 
 #nav-cont {
     width: 100%;
+    padding-top: 2.5%;
 }
 
 #nav-links {
-    display: inline;
+    justify-content: center;
     width: 100%;
-    float: right;
 }
 
 #nav-link {

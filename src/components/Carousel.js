@@ -21,7 +21,7 @@ render() {
                 <div id="carousel-caption-1" class="carousel-caption">Eastern Connecticut Pathology Consultants (ECPC) - Tripled its productivity and increased its net collections by <strong>35%</strong>.</div>
                     <img src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1675220587/LigoLab_Template_Scratch_22_cjhdnl.svg" alt="ECPC"></img>
             </div>
-
+            
             <div class="item">
                 <div id="carousel-caption-2" class="carousel-caption">North West Pathology (NWP) - LigoLab™ partnered with the northwest pacific giant laboratory group to help stop the revenue from slipping through the cracks, potentially saving millions in revenue.</div>
                 <img src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1675159178/LigoLab_Template_Scratch_12_xdeqtu.svg" alt="NWP"></img>

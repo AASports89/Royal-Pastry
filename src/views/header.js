@@ -4,9 +4,8 @@ import SmoothScrollTo from "../hooks/smoothScrollTo";
 export default function Header_nav() {
 
     return (
-		<div>
-	
-			<div className="container justify-content-center">
+		<React.Fragment>
+			<div className="container-fluid bg-light mt-5">
 	
 				<h5 data-aos="zoom-in" id="h5"  className="card-title">Discover the Power of Implementing Innovation & Automation:</h5>
                 <h4 data-aos="zoom-out" className="card-title" id="m-sub"> A Single-Source of Truth For Laboratory Operational Success</h4>
@@ -18,8 +17,7 @@ export default function Header_nav() {
 						</button>
 				
 				</div>
-				
 			</div>
-		</div>
+		</React.Fragment>
 	);
 }

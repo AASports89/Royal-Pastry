@@ -1,7 +1,6 @@
 import React, {useEffect} from "react";
 import Aos from "aos";
 import SmoothScrollTo from "../hooks/smoothScrollTo";
-
 import './css/Header.css';
 
 export default function Header() {
@@ -24,28 +23,15 @@ export default function Header() {
 	}, [])
 
     return (
-		<div>
-			<nav data-aos="slide-down"
-				id="navbar"
-				className="container-fluid navbar">
-				<div className="container" id="my-background">
-					<a id="main-logo-link"
-						href="www.ligolab.com"
-						className="home-style navbar-brand"
-						onClick={() => {
-							window.scrollTo({
-								top: 0,
-								behavior: "smooth"
-							});
-						}}>
+		<div className="container-fluid bg-light mt-5" id="navbar-div">
+			<nav data-aos="slide-down" id="navbar" className="navbar">
+				
+				<a className="home-style navbar-brand" id="main-logo-link" href="www.ligolab.com" onClick={() => { window.scrollTo({ top: 0, behavior: "smooth" }); }}>
+					<img id="logo" className="img-fluid" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1678591972/LIGOLAB_FULL_LOGO_mbj5er.svg" alt="ligolab"></img>
+				</a>
 
-						<div className="card" id="main-logo">
-							<img id="logo" className="img-fluid" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1678591972/LIGOLAB_FULL_LOGO_mbj5er.svg" alt="ligolab"></img>
-						</div>
-					</a>
-						
-					</div>
 			</nav>
+
 			<nav data-aos="slide-down" class="navbar navbar-expand-lg navbar-light bg-light" id="nav-cont">
 				<div className="navbar-nav" data-aos="slide-down" id="nav-links">
 					<a onClick={() => SmoothScrollTo("contact-form")} href="#contact-form" id="nav-link" className="btn-style nav-item nav-link">SCHEDULE FREE CONSULTATION</a>
@@ -53,6 +39,7 @@ export default function Header() {
 					<a onClick={() => SmoothScrollTo("carousel")} href="#carousel" id="nav-link" className="btn-style nav-item nav-link">LIGOLAB™ PARTNERSHIPS</a>
 				</div>
 			</nav>
+
 			<div id="nav-divider"></div>
 		</div>
 	);

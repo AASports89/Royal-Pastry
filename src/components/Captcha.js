@@ -12,7 +12,7 @@ class Captcha extends Component {
      submitMyForm = () => {
         let user_captcha = document.getElementById('user_captcha_input').value;
   
-        if (validateCaptcha(user_captcha)==true) {
+        if (validateCaptcha(user_captcha)===true) {
             alert("✅ - Success! - ✅");
             loadCaptchaEnginge(6);
             document.getElementById('user_captcha_input').value = "";
@@ -42,11 +42,7 @@ render() {
                 </div>
    
                 </div>
-                <div className="form-row justify-content-center">
-                    <div data-aos="slide-right" class="card bg-transparent" id="qr-card">
-                        <img id="qr" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1675399884/LigoLab_Template_Scratch_13_quicxw.svg" class="card-img" alt="tablet"></img>
-                    </div>
-                </div>
+                
         </div>  
     )}
 };

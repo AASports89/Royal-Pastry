@@ -13,11 +13,11 @@ render() {
     <h1 className="card-header" id="h1">Identify Revenue Stream Gaps & Opportunities</h1>
 
 <div className="row justify-content-center">
-    <div data-aos="slide-right" className="col-5">
-      
         <h5 className="card-title" id="check-title">
             Your free consultation will give you an inside look into your revenue cycle and provide you with actionable next steps to:
         </h5>
+    <div data-aos="slide-right" className="col-5">
+      
                <div className="col-12" id="check-list">
 
                 <p id='checking'>
@@ -41,9 +41,7 @@ render() {
         </div>
     </div>
 
-
-<div data-aos="zoom-in" className="container" id="stats-div">
-    <div className="row" id="stats-row">
+    <div data-aos="zoom-in" className="form-row justify-content-center" id="stats-div">
         <div className="col-4">
             <div className="card text-center" id="stats-div-1">
                 <h1 className="card-title"><i id="clean-claim" class="fa-solid fa-chart-pie"></i></h1>
@@ -70,10 +68,5 @@ render() {
 </div>
 </div>
 
-</div>
-
-  );
-}
-}
-
+)}};
 export default Revenue_Gaps;

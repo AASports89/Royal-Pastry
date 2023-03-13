@@ -4,10 +4,12 @@ import Form from "../components/Form";
 
 export default function Main() {
 	return (
-		<div id="main-container" className="container-fluid bg-light mt-5">
-			<Main_Content />
+		<React.Fragment>
+			<div className="container-fluid bg-light mt-5" id="main-container">
+				<Main_Content />
 
-			<Form />
-		</div>
+				<Form />
+			</div>
+		</React.Fragment>
 	);
 }

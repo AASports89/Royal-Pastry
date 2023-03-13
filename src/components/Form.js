@@ -74,12 +74,18 @@ class Form extends Component {
         </div>
     </div>
 
-    <div className="form-row justify-content-center">
-        <button id="submit-6" type="submit" onClick={ () => this.submitMyForm() }>
-            <Captcha />
-        </button>
+<div className='row justify-content-center'>
+   
+    <div data-aos="slide-right" className='col-6 justify-content-center' id="qr-card">
+        <img id="qr" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1675399884/LigoLab_Template_Scratch_13_quicxw.svg" class="card-img" alt="tablet"></img>
     </div>
 
+    <button className='col-6 justify-content-center' id="submit-6" type="submit" onClick={ () => this.submitMyForm() }>
+        <Captcha />
+    </button>
+
+</div>
+       
     </form>
     </div>
 )}

@@ -2,7 +2,6 @@
     background: no-repeat url("https://res.cloudinary.com/dhqsixgmo/image/upload/v1675149590/LigoLab_Template_Scratch_4_zarkxs.svg");
     background-size: cover;
     background-position: center;
-    width: fit-content;
 }
 
 #check-list-title-1 {
@@ -15,10 +14,6 @@
 
 #check-col {
     padding-bottom: 2%;
-}
-
-#adaptable {
-    width: 105%;
 }
 
 #final-check-1 {

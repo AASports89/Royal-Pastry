@@ -2,38 +2,14 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
 
 body {
-    width: 100%;
-}
-
-.container {
-    width: auto;
-    height: auto;
-}
-
-.card {
     width: auto;
     height: auto;
 }
 
 div {
-    width: auto;
+    width: 100%;
     height: auto;
 }
-// .flex {
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//     align-items: center;
-// }
-
-// #navbar {
-//     height: 200px;
-//     text-align: center;
-//     color: black;
-//     font-weight: bold;
-//     background: no-repeat url("https://res.cloudinary.com/dhqsixgmo/image/upload/v1675308366/LigoLab_Template_Scratch_24_u9qhnu.svg");
-//     background-size: cover;
-// }
 
 #main-container {
     background: no-repeat url("https://res.cloudinary.com/dhqsixgmo/image/upload/v1674811212/LigoLab_Template_Scratch_9_xwrhr4.svg");
@@ -78,7 +54,6 @@ div {
 
 #submit-top {
     background: linear-gradient(rgb(14, 76, 175) 0%, rgb(161, 200, 245) 80%);
-    margin-top: 0.5%;
     margin-bottom: 2.5%;
     font-weight: bold;
     font-size: 175%;
@@ -143,7 +118,7 @@ div {
 }
 
 #qr {
-    width: 125%;
+    width: 100%;
 }
 
 #cap {
@@ -153,9 +128,16 @@ div {
 #submit-6 {
     border: none;
     background: none;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0%;
 }
 
 #submit-6:hover {
     border: none;
     background: none;
+}
+
+#captcha_row {
+    width: 100%;
 }

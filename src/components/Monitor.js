@@ -9,8 +9,7 @@ class Monitor extends Component {
 <div className="container-fluid bg-light mt-5" id="monitor">
 
     <h1 className="card-header" id="h3">Customizable, Scalable & Adaptable RCM Solutions</h1>
-
-    <div className="row justify-content-center" id="adaptable">
+    <div className="row justify-content-center">
         <div data-aos="flip-right" id='check-col' className="col-4 justify-content-center">
             <h2 id="check-list-title-1">Payment Posting Services</h2>
             <ul id="check-row-1"><i id="final-check-1" className="fa-solid fa-signs-post"></i> - Insurance Eligibility & Address Verification</ul>
