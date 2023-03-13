@@ -7,11 +7,11 @@ render() {
 
   return (
    
-        <div data-aos="zoom-in" className="component-container justify-content center" id="carousel">
+    <div data-aos="zoom-in" className="container-fluid bg-light mt-5" id="carousel">
 
-    <div class="col-8 justify-content-center">
+        <div class="col-12 justify-content-center">
 
-        <h3 class="card-header" id="h6">We Value All Our Partnerships Across the Entire U.S.</h3>
+            <h3 class="card-header" id="h6">We Value All Our Partnerships Across the Entire U.S.</h3>
 
     <div id="carousel-demo"
          class="carousel slide"
@@ -53,8 +53,6 @@ render() {
     </div>
 </div>
 </div>
-  );
-}
-}
+)}};
 
 export default Carousel;

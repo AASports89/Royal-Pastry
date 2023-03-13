@@ -1,17 +1,17 @@
 #h6 {
     font-weight: bold;
-    font-size: 200%;
+    font-size: 300%;
     text-align: center;
     border: none;
     background: transparent;
     padding-bottom: 2%;
+    padding-top: 2%;
 }
 
 #carousel {
     background: no-repeat url("https://res.cloudinary.com/dhqsixgmo/image/upload/v1675072418/LigoLab_Template_Scratch_2_rsgist.svg");
     background-size: cover;
     background-position: center;
-    width: 100%;
 }
 
 #carousel-caption-1 {

@@ -35,7 +35,7 @@ function Clean_Claim_Calc() {
   }
 
   return (
-    <div className='container-fluid'>
+    <div className="container-fluid bg-light mt-5">
         <h1 id="calc-title">
         <i id="ast-1" className="fa-solid fa-asterisk"></i>Check Your Lab's Revenue Opportunity  <i id="rev" class="fa-solid fa-magnifying-glass-dollar"></i>
       </h1>

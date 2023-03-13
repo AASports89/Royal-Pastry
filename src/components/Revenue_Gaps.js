@@ -8,7 +8,7 @@ render() {
 
   return (
 
-<div className="container" id="revenue_gaps">
+<div className="container-fluid bg-light mt-5" id="revenue_gaps">
 
     <h1 className="card-header" id="h1">Identify Revenue Stream Gaps & Opportunities</h1>
 
