@@ -35,36 +35,33 @@ function Clean_Claim_Calc() {
   }
 
   return (
-    <div className="container-fluid bg-light mt-5">
+    <div className="container-fluid mt-5">
         <h1 id="calc-title">
-        <i id="ast-1" className="fa-solid fa-asterisk"></i>Check Your Lab's Revenue Opportunity  <i id="rev" class="fa-solid fa-magnifying-glass-dollar"></i>
-      </h1>
-  <div className='form-row justify-content-center' id="tablet">
+          <i id="ast-1" className="fa-solid fa-asterisk"></i>Check Your Lab's Revenue Opportunity  <i id="rev" class="fa-solid fa-magnifying-glass-dollar"></i>
+        </h1>
+      <div data-aos="zoom-out" className='container justify-content-center' id="tablet">
+     
+      <div className='row justify-content-center'>
+          <div className='col-12 justify-content-center' id="title-calc">
 
-    <div data-aos="slide-right" className='form-row justify-content-center' id='calc-main'>
+              <h5 id="calc-subtitle" className='card-subtitle'>
+                  <ul data-aos="flip-right" id="ul-1">
+                    <span id="badge-2" className="badge">
+                      <img id="icon-ligo-1" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1678357113/FLASK_rzukaf.svg" alt="ligo icon"></img>
+                    </span> 
+                    <span id="text">Enter the average volume of billing encounters your laboratory typically processes montly or yearly.</span>
+                  </ul>
+
+                  <ul data-aos="flip-left" id="ul-2">
+                    <span id="badge-2" className="badge">
+                      <img id="icon-ligo-1" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1678357113/FLASK_rzukaf.svg" alt="ligo icon"></img>
+                    </span>
+                    <span id="text">The calculated amount represents the potential revenue increase from the integration of LigoLab™.</span>
+                  </ul>
+              </h5>
+          </div>
      
-  <div class="card bg-transparent" id="tablet_1">
-  
-      <div className='form-row justify-content-center'>
-        <div className='col-9 justify-content-center' id="title-calc">
-        <h5 id="calc-subtitle" className='card-subtitle'>
-            <ul data-aos="flip-right" id="ul-1">
-            <span id="badge-2" className="badge">
-                <img id="icon-ligo-1" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1678357113/FLASK_rzukaf.svg" alt="ligo icon"></img>
-            </span> 
-              <span id="text">Enter the average volume of billing encounters your laboratory typically processes montly or yearly.</span>
-            </ul>
-            <ul data-aos="flip-left" id="ul-2">
-            <span id="badge-2" className="badge">
-                <img id="icon-ligo-1" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1678357113/FLASK_rzukaf.svg" alt="ligo icon"></img>
-            </span>
-                <span id="text">The calculated amount represents the potential revenue increase from the integration of LigoLab™.</span>
-            </ul>
-            
-        </h5>
-      </div>
-     
-     <div className='col-4 justify-content-center' id="calc-form">
+     <div className='col-6 justify-content-center' id="calc-form">
         <form className='form-group'>
 
           <div className='form-row-mb-5' id='calc-disp'>
@@ -89,8 +86,6 @@ function Clean_Claim_Calc() {
      </div>
   </div>
 </div>
-  </div>
-  </div>
   );
 }
 
