@@ -1,7 +1,10 @@
+
 <svg
-   width="512"
-   height="512"
-   viewBox="0 0 320 320"
+   width="100"
+   height="100"
+   viewBox="0 0 120 120"
+   version="1.1"
+   id="svg5"
    xml:space="preserve"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg">
@@ -80,7 +83,8 @@
          stdDeviation="0.38542414"
          id="feGaussianBlur2693" /></filter>
          <g
-     id="g4925"><rect
+     id="g4925"
+     transform="matrix(0.37499999,0,0,0.37499999,-1.2645511e-6,0)"><rect
        style="fill:none;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:square;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
        id="rect2152"
        width="93.75"
@@ -121,4 +125,4 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;white-space:pre;shape-inside:url(#rect1520);display:inline;fill:url(#linearGradient2636);fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:square;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"><tspan
            x="-70.801758"
            y="57.568953"
-           id="tspan5044">PASTRY</tspan></text></g></g></svg>
+           id="tspan5163">PASTRY</tspan></text></g></g></svg>
