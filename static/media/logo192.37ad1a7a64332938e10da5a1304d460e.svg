@@ -1,7 +1,7 @@
 <svg
-   width="48"
-   height="48"
-   viewBox="0 0 30 30"
+   width="192"
+   height="192"
+   viewBox="0 0 120 120"
    xml:space="preserve"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg">
@@ -33,8 +33,7 @@
          id="stop2614" /><stop
          style="stop-color:#590999;stop-opacity:1;"
          offset="1"
-         id="stop2612" /></linearGradient>
-         <filter
+         id="stop2612" /></linearGradient><filter
        style="color-interpolation-filters:sRGB"
        id="filter1905"
        x="-0.0051629078"
@@ -81,7 +80,7 @@
          id="feGaussianBlur2693" /></filter>
          <g
      id="g4925"
-     transform="scale(0.09375)"><rect
+     transform="matrix(0.37499999,0,0,0.37499999,-1.2645511e-6,0)"><rect
        style="fill:none;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:square;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
        id="rect2152"
        width="93.75"
@@ -122,4 +121,4 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;white-space:pre;shape-inside:url(#rect1520);display:inline;fill:url(#linearGradient2636);fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:square;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"><tspan
            x="-70.801758"
            y="57.568953"
-           id="tspan5282">PASTRY</tspan></text></g></g></svg>
+           id="tspan5163">PASTRY</tspan></text></g></g></svg>

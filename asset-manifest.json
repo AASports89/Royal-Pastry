@@ -1,13 +1,18 @@
 {
   "files": {
-    "main.css": "/RCM-consultation/static/css/main.6b223f68.css",
-    "main.js": "/RCM-consultation/static/js/main.d8cd6014.js",
-    "index.html": "/RCM-consultation/index.html",
-    "main.6b223f68.css.map": "/RCM-consultation/static/css/main.6b223f68.css.map",
-    "main.d8cd6014.js.map": "/RCM-consultation/static/js/main.d8cd6014.js.map"
+    "main.css": "/Royal-Pastry/static/css/main.df4e9598.css",
+    "main.js": "/Royal-Pastry/static/js/main.09a9a8df.js",
+    "static/js/453.47718730.chunk.js": "/Royal-Pastry/static/js/453.47718730.chunk.js",
+    "static/media/cakes_bg.svg": "/Royal-Pastry/static/media/cakes_bg.e692fb6f18a7e66dfce0.svg",
+    "static/media/logo192.svg": "/Royal-Pastry/static/media/logo192.37ad1a7a64332938e10da5a1304d460e.svg",
+    "static/media/logo.svg": "/Royal-Pastry/static/media/logo.bd6fc7414e755fe33c7bc1a646b8630c.svg",
+    "index.html": "/Royal-Pastry/index.html",
+    "main.df4e9598.css.map": "/Royal-Pastry/static/css/main.df4e9598.css.map",
+    "main.09a9a8df.js.map": "/Royal-Pastry/static/js/main.09a9a8df.js.map",
+    "453.47718730.chunk.js.map": "/Royal-Pastry/static/js/453.47718730.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b223f68.css",
-    "static/js/main.d8cd6014.js"
+    "static/css/main.df4e9598.css",
+    "static/js/main.09a9a8df.js"
   ]
 }
