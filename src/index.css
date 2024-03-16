@@ -1,32 +1,17 @@
 body {
-    height: 100%;
-    width: 100%;
-
- -webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
- background-size: cover;
- 
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('https://res.cloudinary.com/dhqsixgmo/image/upload/v1710569921/BG_u4myv8.svg');
+  background-size: cover;
+
 }
 
 code {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
 
-/* .section-title{
-  margin: auto;
-  text-align: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 200%;
-  padding-bottom: 3%;
-  color:white;
-}
-
-.component-container{
-  padding: 5%;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.74);
-} */

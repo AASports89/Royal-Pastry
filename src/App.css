@@ -1,0 +1,66 @@
+.container-fluid {
+  text-align: center;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  #logo {
+    animation: App-logo-flip infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #eeecfd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+#navbar {
+  background-image: url('./images/cakes_bg.svg');
+
+  background-size: cover;
+}
+
+#mag {
+  margin-right: 0.5%;
+}
+
+#list {
+  margin-right: 0.5%;
+}
+
+#link1 {
+  color: #61dafb;
+  text-decoration: none;
+  width: 100%;
+}
+
+#link1:hover {
+  text-decoration: none;
+  color: #f2ed00;
+}
+
+#footer-card {
+  background: none;
+  border: none;
+  font-size: 10pt;
+  
+}
+#place-holder {
+  font-size: 400%;
+}
+.App-footer {
+  margin-top: 60%;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
