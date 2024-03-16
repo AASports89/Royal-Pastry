@@ -2,8 +2,6 @@
   text-align: center;
 }
 
-
-
 @media (prefers-reduced-motion: no-preference) {
   #logo {
     animation: App-logo-flip infinite 20s linear;
@@ -54,6 +52,10 @@
 }
 .App-footer {
   margin-top: 60%;
+}
+
+#yelp {
+  color: #D22222;
 }
 
 @keyframes App-logo-spin {
