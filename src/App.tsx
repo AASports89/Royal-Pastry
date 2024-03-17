@@ -1,10 +1,7 @@
-import React, {useEffect} from 'react';
 import logo from './logo.svg';
-import cake1 from './images/cake_bg.svg'
 import favicon from './images/logo192.svg'
 import './App.css';
 import Aos from 'aos';
-import { render } from '@testing-library/react';
 
 function App() {
 
@@ -46,7 +43,7 @@ const year = new Date().getFullYear();
 			</div>
 			<div className="row justify-content-md-center">
 				<a className="px-5" href="https://#" target="_blank" rel="noopener noreferrer">
-				<i id="twitter" data-aos="slide-left" id="footer-font" className="fa-brands fa-square-twitter"></i>
+				<i id="twitter" data-aos="slide-left" className="fa-brands fa-square-twitter"></i>
 				</a> | 	
       				<a className="px-5" href="https://#" target="_blank" rel="noopener noreferrer">
 				<i id="insta" data-aos="slide-down" className="fa-brands fa-instagram"></i>
