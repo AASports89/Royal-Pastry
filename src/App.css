@@ -16,8 +16,34 @@
   font-size: calc(10px + 2vmin);
 }
 
-#mag {
-  margin-right: 0.5%;
+#home {
+  color:rgb(6, 6, 195);
+  text-decoration: none;
+  margin-right: 2%;
+}
+
+#home:hover {
+  color: #9eb0bf;
+}
+
+#menu {
+  color:rgb(6, 6, 195);
+  text-decoration: none;
+  margin-right: 2%;
+}
+
+#menu:hover {
+  color: #9eb0bf;
+}
+
+#custom {
+  color:rgb(6, 6, 195);
+  text-decoration: none;
+  margin-right: 2%;
+}
+
+#custom:hover {
+  color: #9eb0bf;
 }
 
 #list {
@@ -41,15 +67,62 @@
   font-size: 10pt;
   
 }
-#place-holder {
-  font-size: 400%;
-}
+
 .App-footer {
   margin-top: 60%;
 }
 
+#footer-title {
+  font-size: 90%;
+}
+
 #yelp {
   color: #D22222;
+  
+}
+
+#twitter:hover {
+  transition: all 0.3s ease-in-out;
+  font-size: 110%;
+  color: rgba(128, 128, 128, 0.506);
+}
+
+#insta {
+  color:  rgb(94, 79, 125);
+}
+
+#insta:hover {
+  color: rgba(128, 128, 128, 0.506);
+  transition: all 0.3s ease-in-out;
+  font-size: 110%;
+}
+
+#yelp:hover {
+  transition: all 0.3s ease-in-out;
+  font-size: 110%;
+  color: rgba(128, 128, 128, 0.506);
+}
+
+#inline_container {
+  max-height: auto;
+  width: 100%;
+  overflow-y: hidden;
+}
+
+#main-label {
+  border-bottom: 1px dashed black; 
+  margin-bottom: 3%; 
+  text-align: center; 
+  font-size: 125%
+}
+
+#inner-label {
+  margin-top: 2.5%; 
+  margin-bottom: 1%
+}
+
+#royal-icon {
+  width: 25%;
 }
 
 @keyframes App-logo-spin {

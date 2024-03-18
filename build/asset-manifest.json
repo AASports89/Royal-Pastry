@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/Royal-Pastry/static/css/main.df4e9598.css",
-    "main.js": "/Royal-Pastry/static/js/main.09a9a8df.js",
+    "main.css": "/Royal-Pastry/static/css/main.4a17f7cf.css",
+    "main.js": "/Royal-Pastry/static/js/main.91c0d6e0.js",
     "static/js/453.47718730.chunk.js": "/Royal-Pastry/static/js/453.47718730.chunk.js",
-    "static/media/cakes_bg.svg": "/Royal-Pastry/static/media/cakes_bg.e692fb6f18a7e66dfce0.svg",
+    "static/media/dessert2.jpg": "/Royal-Pastry/static/media/dessert2.53202aa2c913c57f5396.jpg",
+    "static/media/dessert3.jpg": "/Royal-Pastry/static/media/dessert3.3a06a83ed5225b54afb8.jpg",
+    "static/media/dessert1.jpg": "/Royal-Pastry/static/media/dessert1.4c08c520b26791a3d059.jpg",
+    "static/media/dessert4.jpg": "/Royal-Pastry/static/media/dessert4.76c4019f660ac2f8ffd5.jpg",
     "static/media/logo192.svg": "/Royal-Pastry/static/media/logo192.37ad1a7a64332938e10da5a1304d460e.svg",
     "static/media/logo.svg": "/Royal-Pastry/static/media/logo.bd6fc7414e755fe33c7bc1a646b8630c.svg",
     "index.html": "/Royal-Pastry/index.html",
-    "main.df4e9598.css.map": "/Royal-Pastry/static/css/main.df4e9598.css.map",
-    "main.09a9a8df.js.map": "/Royal-Pastry/static/js/main.09a9a8df.js.map",
+    "main.4a17f7cf.css.map": "/Royal-Pastry/static/css/main.4a17f7cf.css.map",
+    "main.91c0d6e0.js.map": "/Royal-Pastry/static/js/main.91c0d6e0.js.map",
     "453.47718730.chunk.js.map": "/Royal-Pastry/static/js/453.47718730.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.df4e9598.css",
-    "static/js/main.09a9a8df.js"
+    "static/css/main.4a17f7cf.css",
+    "static/js/main.91c0d6e0.js"
   ]
 }
