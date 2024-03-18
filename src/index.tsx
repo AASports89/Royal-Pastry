@@ -1,14 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Main from './Main';
 import reportWebVitals from './reportWebVitals';
 import "aos/dist/aos.css"; 
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <React.Fragment>
+  </React.Fragment>,
   document.getElementById('root')
 );
 

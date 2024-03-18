@@ -19,7 +19,7 @@
 }
 
 #navbar {
-  background-image: url('./images/cakes_bg.svg');
+  /* background-image: url('./images/cakes_bg.svg'); */
 
   background-size: cover;
 }
