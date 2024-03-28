@@ -1,17 +1,16 @@
 {
   "files": {
-    "main.css": "/Royal-Pastry/static/css/main.2abeec84.css",
-    "main.js": "/Royal-Pastry/static/js/main.222a5a8d.js",
+    "main.css": "/Royal-Pastry/static/css/main.b1b20647.css",
+    "main.js": "/Royal-Pastry/static/js/main.c23dcb18.js",
     "static/js/453.47718730.chunk.js": "/Royal-Pastry/static/js/453.47718730.chunk.js",
-    "static/media/logo192.svg": "/Royal-Pastry/static/media/logo192.37ad1a7a64332938e10da5a1304d460e.svg",
-    "static/media/logo.svg": "/Royal-Pastry/static/media/logo.bd6fc7414e755fe33c7bc1a646b8630c.svg",
+    "static/media/logo.svg": "/Royal-Pastry/static/media/logo.1b6ae4b14dd23bb49334a34c8e9140b2.svg",
     "index.html": "/Royal-Pastry/index.html",
-    "main.2abeec84.css.map": "/Royal-Pastry/static/css/main.2abeec84.css.map",
-    "main.222a5a8d.js.map": "/Royal-Pastry/static/js/main.222a5a8d.js.map",
+    "main.b1b20647.css.map": "/Royal-Pastry/static/css/main.b1b20647.css.map",
+    "main.c23dcb18.js.map": "/Royal-Pastry/static/js/main.c23dcb18.js.map",
     "453.47718730.chunk.js.map": "/Royal-Pastry/static/js/453.47718730.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2abeec84.css",
-    "static/js/main.222a5a8d.js"
+    "static/css/main.b1b20647.css",
+    "static/js/main.c23dcb18.js"
   ]
 }
