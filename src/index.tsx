@@ -1,19 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Main from './Main';
 import reportWebVitals from './reportWebVitals';
-import "aos/dist/aos.css"; 
+import "aos/dist/aos.css";
+
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.min.js';
+
+import App from './App';
+
+
 
 ReactDOM.render(
-<<<<<<< HEAD
-  <React.Fragment>
-  </React.Fragment>,
-=======
   <React.StrictMode>
+
       <App />
+
   </React.StrictMode>,
->>>>>>> 37ea5d7346be26bd07898c32b7c138bda50689fe
   document.getElementById('root')
 );
 

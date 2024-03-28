@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -8,10 +12,6 @@ body {
   background-image: url('https://res.cloudinary.com/dhqsixgmo/image/upload/v1710569921/BG_u4myv8.svg');
   background-size: cover;
 
-}
-
-* {
-  box-sizing: border-box;
 }
 
 .container {
@@ -82,12 +82,6 @@ a {
   width: 100%;
   color:rgb(6, 6, 195);
   font-weight: bold;
-}
-
-a:hover {
-  color: #9eb0bf;
-  transition: all 0.2s ease-in-out;
-  font-size: 110%;
 }
 
 /**
@@ -405,3 +399,8 @@ button {
   margin: 0;
 }
 
+.card {
+  border: none;
+  background: transparent;
+  width: 50%;
+}
